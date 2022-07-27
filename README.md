@@ -189,7 +189,7 @@ index.md 파일의 상단에는 아래와 같이 emoji, title, date, author, tag
 emoji: 🧢
 title: Getting Started
 date: '2021-03-22 23:00:00'
-author: 줌코딩
+author: 이승준
 tags: tutorial
 categories: tutorial
 ---
