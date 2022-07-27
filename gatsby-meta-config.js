@@ -14,7 +14,7 @@ module.exports = {
     name: `이승준`,
     bio: {
       role: ``,
-      description: ['공부하는', '2004년생', '고등학생'],
+      description: ['공부하는', '2004년생', '고3'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
