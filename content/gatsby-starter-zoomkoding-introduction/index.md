@@ -2,8 +2,8 @@
 emoji: 🧢
 title: 쉽고 빠르게 나만의 개츠비(Gatsby) 블로그 만들기
 date: '2021-03-22 23:00:00'
-author: 줌코딩
-tags: blog gatsby theme 개츠비 테마
+author: 이승준
+tags: 
 categories: 블로그 featured
 ---
 
@@ -166,7 +166,7 @@ index.md 파일의 상단에는 아래와 같이 emoji, title, date, author, tag
 emoji: 🧢
 title: Getting Started
 date: '2021-03-22 23:00:00'
-author: 줌코딩
+author: 이승준
 tags: tutorial
 categories: tutorial
 ---
