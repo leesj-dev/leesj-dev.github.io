@@ -9,12 +9,12 @@ module.exports = {
       repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'G-NZR06N68FF', // Google Analytics Tracking ID
   author: {
     name: `이승준`,
     bio: {
       role: ``,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['공부하는', '2004년생', '고등학생'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
@@ -79,7 +79,7 @@ module.exports = {
         thumbnailUrl: 'blog.png',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+          github: 'https://github.com/leesj-dev/leesj-dev.github.io',
           demo: 'https://leesj-dev.github.io',
         },
       },
