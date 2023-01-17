@@ -132,10 +132,10 @@
 <h2 id="1-2-java-se-8" style="position:relative;"><a href="#1-2-java-se-8" aria-label="1 2 java se 8 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-2. Java SE 8</h2>
 <p>기존에 Java 8을 쓰는 사람은 건너뛰면 된다. <a href="https://www.oracle.com/kr/java/technologies/javase/javase8u211-later-archive-downloads.html">JDK, JRE 8 Oracle 페이지</a>에 들어가서 JDK(Java Development Kit)와 JRE(Java Runtime Environment)를 설치한다.
 Oracle 회원가입 및 로그인을 해야 하므로, 귀찮은 사람들을 위해 아래에 Oracle 서버의 direct download 링크를 넣어두겠다.</p>
-<p><a href="https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/windows-i586/jdk-8u331-windows-x64.exe">JDK 8 Windows</a>
-<a href="https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/unix-i586/jdk-8u331-macosx-x64.dmg">JDK 8 Mac</a>
-<a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246264_165374ff4ea84ef0bbd821706e29b123">JRE 8 Windows</a>
-<a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246255_165374ff4ea84ef0bbd821706e29b123">JRE 8 Mac</a></p>
+<p><a href="https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/windows-i586/jdk-8u331-windows-x64.exe">JDK 8 Windows</a></p>
+<p><a href="https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/unix-i586/jdk-8u331-macosx-x64.dmg">JDK 8 Mac</a></p>
+<p><a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246264_165374ff4ea84ef0bbd821706e29b123">JRE 8 Windows</a></p>
+<p><a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246255_165374ff4ea84ef0bbd821706e29b123">JRE 8 Mac</a></p>
 <h2 id="1-3-appium-server-gui" style="position:relative;"><a href="#1-3-appium-server-gui" aria-label="1 3 appium server gui permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-3. Appium Server GUI</h2>
 <p><a href="https://github.com/appium/appium-desktop/releases/tag/v1.22.3-4">Appium Server GUI</a>를 설치한 뒤 실행한다. Host는 <code class="language-text">127.0.0.1</code>로, Port는 <code class="language-text">4723</code>로 설정한다. Edit Configurations를 누르면 환경 변수를 설정하는 창이 뜬다.
 <span
@@ -162,7 +162,7 @@ Oracle 회원가입 및 로그인을 해야 하므로, 귀찮은 사람들을 �
         decoding="async"
       />
     </span>
-<code class="language-text">ANDROID_HOME</code>에는 앞에서 복사했던 <code class="language-text">Android SDK Location</code>를 넣어준다. JAVA_HOME에는 설치한 JDK의 경로를 넣어준다.</p>
+ANDROID_HOME에는 앞에서 복사했던 <code class="language-text">Android SDK Location</code>를 넣어준다. JAVA_HOME에는 설치한 JDK의 경로를 넣어준다. 일반적으로는 아래와 같다.</p>
 <ul>
 <li>Windows: <code class="language-text">C:\Program Files\Java\jdk-[버전명]</code></li>
 <li>Mac: <code class="language-text">/Library/Java/JavaVirtualMachines/jdk[버전명].jdk</code></li>
@@ -193,7 +193,9 @@ Oracle 회원가입 및 로그인을 해야 하므로, 귀찮은 사람들을 �
     </span>
 다 끝났으면 startServer를 누른다.</p>
 <h2 id="1-4-appium-inspector" style="position:relative;"><a href="#1-4-appium-inspector" aria-label="1 4 appium inspector permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-4. Appium Inspector</h2>
-<p><a href="https://github.com/appium/appium-inspector/releases">Appium Insepctor</a>를 설치한 뒤 실행한다. Remote Host가 <code class="language-text">127.0.0.1</code>, Remote Port가 <code class="language-text">4723</code>인지 확인한다. Remote Path는 <code class="language-text">/wd/hub/</code>로 설정한다. Desired Capabilities에 [<code class="language-text">platformName</code>, <code class="language-text">text</code>, <code class="language-text">Android</code>]를 추가한다. (추가하지 않을 시 작동이 안 된다.)
+<p><a href="https://github.com/appium/appium-inspector/releases">Appium Insepctor</a>를 설치한 뒤 실행한다.</p>
+<p>Remote Host가 <code class="language-text">127.0.0.1</code>, Remote Port가 <code class="language-text">4723</code>인지 확인한다. Remote Path는 <code class="language-text">/wd/hub/</code>로 설정한다.</p>
+<p>Desired Capabilities에 [<code class="language-text">platformName</code>, <code class="language-text">text</code>, <code class="language-text">Android</code>]를 추가한다. (추가하지 않을 시 작동이 안 된다.)
 <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
@@ -221,18 +223,19 @@ Oracle 회원가입 및 로그인을 해야 하므로, 귀찮은 사람들을 �
     </span>
 다 끝났으면 Start Session을 누른다.</p>
 <h2 id="1-5-python" style="position:relative;"><a href="#1-5-python" aria-label="1 5 python permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-5. Python</h2>
-<p>기본적으로 Python 3와 IDE(PyCharm, VS Code 등)이 설치되어 있어야 한다. 또 모듈을 설치하기 위해 pip도 있어야 한다.
-<a href="https://www.python.org/downloads/">Python 3</a>
-<a href="https://code.visualstudio.com/download">VS Code</a>
-<a href="https://pip.pypa.io/en/stable/installation/">pip</a>
-Terminal 혹은 Command Prompt에 아래를 입력한다.</p>
+<p>기본적으로 Python 3와 IDE(PyCharm, VS Code 등)가 설치되어 있어야 한다. 또 모듈을 설치하기 위해 pip도 있어야 한다.</p>
+<p><a href="https://www.python.org/downloads/">Python 3</a></p>
+<p><a href="https://code.visualstudio.com/download">VS Code</a></p>
+<p><a href="https://pip.pypa.io/en/stable/installation/">pip</a></p>
+<p>Terminal 혹은 Command Prompt에 아래를 입력한다.</p>
 <ul>
 <li><code class="language-text">pip install Appium-Python-Client</code> : Appium의 파이썬 클라이언트를 설치한다.</li>
 <li><code class="language-text">pip install selenium</code> : selenium의 여러 함수(By 등)을 사용하기 위해 설치한다.</li>
 </ul>
 <h1 id="2-코드-작성-방법" style="position:relative;"><a href="#2-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95" aria-label="2 코드 작성 방법 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 코드 작성 방법</h1>
-<p>Appium은 selenium의 웹 크롤링과 유사한 방식으로 작동된다. 가령, Google Calendar 앱 내에서 검색 버튼을 클릭하고 싶다고 해보자.
-우선 Android Studio에서 구동하고 있는 가상 안드로이드에서 Google Calendar에 들어간다. 이후 Appium Inspector의 새로고침 버튼(Refresh Source And Screenshot)을 누른다. 그러면 Appium Inspector에 현재 휴대폰 화면이 뜰 것이다. Select Elements 툴로 검색 버튼을 누르면, 그것에 해당하는 element를 아래 사진에서와 같이 보여준다.
+<p>Appium은 selenium의 웹 크롤링과 유사한 방식으로 작동된다. 가령, Google Calendar 앱 내에서 검색 버튼을 클릭하고 싶다고 해보자.</p>
+<p>우선 Android Studio에서 구동하고 있는 가상 안드로이드에서 Google Calendar에 들어간다. 이후 Appium Inspector의 새로고침 버튼(Refresh Source And Screenshot)을 누른다. 그러면 Appium Inspector에 현재 휴대폰 화면이 뜰 것이다.</p>
+<p>Select Elements 툴로 검색 버튼을 누르면, 그것에 해당하는 element를 아래 사진에서와 같이 보여준다.
 <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
@@ -259,17 +262,17 @@ Terminal 혹은 Command Prompt에 아래를 입력한다.</p>
       />
     </span>
 이때 필요한 정보는 <code class="language-text">id</code> 혹은 <code class="language-text">xpath</code>이다. 이것을 이용하면 파이썬 코드를 작성하여 자동화할 수 있다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">from appium import webdriver
-from selenium.webdriver.common.by import By
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> appium <span class="token keyword">import</span> webdriver
+<span class="token keyword">from</span> selenium<span class="token punctuation">.</span>webdriver<span class="token punctuation">.</span>common<span class="token punctuation">.</span>by <span class="token keyword">import</span> By
 
-desired_capabilities = {
-    "platformName": "Android",
-    "platformVersion": "13",
-    "deviceName": "Android Emulator",
-}
+desired_capabilities <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">"platformName"</span><span class="token punctuation">:</span> <span class="token string">"Android"</span><span class="token punctuation">,</span>
+    <span class="token string">"platformVersion"</span><span class="token punctuation">:</span> <span class="token string">"13"</span><span class="token punctuation">,</span>
+    <span class="token string">"deviceName"</span><span class="token punctuation">:</span> <span class="token string">"Android Emulator"</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
 
-driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_capabilities)
-driver.find_element(By.ID, "com.google.android.calendar:id/action_search").click()</code></pre></div>
+driver <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Remote<span class="token punctuation">(</span><span class="token string">"http://127.0.0.1:4723/wd/hub"</span><span class="token punctuation">,</span> desired_capabilities<span class="token punctuation">)</span>
+driver<span class="token punctuation">.</span>find_element<span class="token punctuation">(</span>By<span class="token punctuation">.</span>ID<span class="token punctuation">,</span> <span class="token string">"com.google.android.calendar:id/action_search"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>click<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></div>
 <div class="table-of-contents">
 <ul>
 <li><a href="#1-1-android-studio">1-1. Android Studio</a></li>
@@ -278,4 +281,4 @@ driver.find_element(By.ID, "com.google.android.calendar:id/action_search").click
 <li><a href="#1-4-appium-inspector">1-4. Appium Inspector</a></li>
 <li><a href="#1-5-python">1-5. Python</a></li>
 </ul>
-</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/html-tag/"><div class="direction">이전 글</div><div class="title">HTML 태그 정리</div></a></div><div class="post-navigator-card-wrapper"></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2023<!-- --> <a href="https://github.com/leesj-dev">이승준</a>. powered by<a href="https://github.com/leesj-dev/leesj-dev.github.io"> leesj-dev.github.io</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/android-automation/";window.___webpackCompilationHash="c7df1bf9fbaace1098a4";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-5490addea4726fd59a6f.js"],"app":["/app-fd1b82a3d4f855a07ad4.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-52be0e965342fab13f5f.js"],"component---src-pages-404-js":["/component---src-pages-404-js-387623b36010a59aea24.js"],"component---src-pages-about-js":["/component---src-pages-about-js-e079ee15ac983fbe8de9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-c0da7d6d97a28419f166.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-2d2ec26cffd968f352e1.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-7eac035cfc11b4754d6b.js"]};/*]]>*/</script><script src="/polyfill-5490addea4726fd59a6f.js" nomodule=""></script><script src="/app-fd1b82a3d4f855a07ad4.js" async=""></script><script src="/framework-00b3bb279e904a11f9c4.js" async=""></script><script src="/webpack-runtime-a97e033f1269bdb0e898.js" async=""></script></body></html>
+</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/html-tag/"><div class="direction">이전 글</div><div class="title">HTML 태그 정리</div></a></div><div class="post-navigator-card-wrapper"></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2023<!-- --> <a href="https://github.com/leesj-dev">이승준</a>. powered by<a href="https://github.com/leesj-dev/leesj-dev.github.io"> leesj-dev.github.io</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/android-automation/";window.___webpackCompilationHash="cabff3759a68339902f7";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-5490addea4726fd59a6f.js"],"app":["/app-fd1b82a3d4f855a07ad4.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-52be0e965342fab13f5f.js"],"component---src-pages-404-js":["/component---src-pages-404-js-387623b36010a59aea24.js"],"component---src-pages-about-js":["/component---src-pages-about-js-e079ee15ac983fbe8de9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-c0da7d6d97a28419f166.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-2d2ec26cffd968f352e1.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-7eac035cfc11b4754d6b.js"]};/*]]>*/</script><script src="/polyfill-5490addea4726fd59a6f.js" nomodule=""></script><script src="/app-fd1b82a3d4f855a07ad4.js" async=""></script><script src="/framework-00b3bb279e904a11f9c4.js" async=""></script><script src="/webpack-runtime-a97e033f1269bdb0e898.js" async=""></script></body></html>
