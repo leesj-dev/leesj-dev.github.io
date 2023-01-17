@@ -1,9 +1,9 @@
 {
-  "name": "zoomkoding.com",
+  "name": "leesj-dev.github.io",
   "private": false,
   "description": "A neat blog theme for developers",
   "version": "3.0.0",
-  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "author": "leesj-dev",
   "dependencies": {
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
