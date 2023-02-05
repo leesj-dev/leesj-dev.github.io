@@ -4,7 +4,7 @@ title: 한글 수식 커스텀 폰트 만들기
 date: '2022-08-10 16:00:00'
 author: 이승준
 tags: 수식 폰트 LaTeX
-categories: 한/글
+categories: 한글
 ---
 
 ## 1. 왜 커스텀 수식 폰트가 필요한가?
@@ -41,14 +41,8 @@ categories: 한/글
 이제 수식 입력창에 폰트가 뜨게 만들어야 하는데, 가장 간단한 방법은 `HyHwpEQ.TTF`나 `HancomEQN.TTF` 파일을 덮어씌우는 게 있다. 하지만 이렇게 하면 원본 폰트를 사용하지 못하게 되므로, 폰트를 하나 추가하여 한/글 수식입력기의 드롭다운 메뉴에서 선택할 수 있도록 방안을 마련하였다.
 우선 커스텀한 폰트 파일을 컴퓨터에 설치하고, `C:\Program Files (x86)\HNC\Office 2022\HOffice120\Bin\EqEditor`에 들어가면 [미완성]
 
-$a^2 + b^2 = c^2$
-
-$$
-a^2 + b^2 = c^2
-$$
-
-
-<iframe>
+<!DOCTYPE html>
+<html>
     <head>
         <style>
             @font-face { font-family: 'HY중명조'; src: url('./fonts/HY중명조.woff') format('woff'); unicode-range: U+AC00-D7A3;}
@@ -116,7 +110,7 @@ $$
             </tr>
         </table>
     </body>
-</iframe>
+</html>
 
 
 ## 5. 수식 폰트 일괄 변경하기
