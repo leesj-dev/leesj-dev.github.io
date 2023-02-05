@@ -12,11 +12,6 @@ categories: PASAT
 
 - - -
 
-## 정답
-52
-
-- - -
-
 ## 해설
 $29$ students and the teacher are going to buy the T-shirts, so the total number of people buying the T-shirts is $30$.
 Let $a_{1}$ as the quantity of small-sized T-shirts, $a_{2}$ as the quantity of medium-sized T-shirts, $a_{3}$ as the quantity of large-sized T-shirts, $a_{4}$ as the quantity of extra-large-sized T-shirts, and $a_{5}$ as the quantity of extra-extra-large-sized T-shirts.
@@ -109,6 +104,11 @@ Since she also tipped \$2 with $2\div 0.05=40$ nickels,
 $b$ (the total amount of nickels the woman paid) $=6+40=46$
 
 $\therefore \: a+b=6+46=\boxed{\bm{52}}$
+
+- - -
+
+## 정답
+52
 
 ```toc
 ```

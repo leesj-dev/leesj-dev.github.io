@@ -50,8 +50,4 @@ html[data-theme='dark'] {
   --markdown-table-border-color: #444c56;
   --markdown-blockquote-border-color: #4f5864;
   --markdown-border-color: #e1e4e8;
-  svg {
-    -webkit-filter: invert(100%); /* safari&chrome */
-            filter: invert(100%);
-  }
 }
