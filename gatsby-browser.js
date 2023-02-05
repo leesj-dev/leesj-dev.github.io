@@ -1,1 +1,1 @@
-import './fonts/fonts.css'
+import './static/fonts/fonts.css'
