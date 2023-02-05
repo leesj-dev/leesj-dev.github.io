@@ -2,7 +2,7 @@ module.exports = {
   title: `leesj-dev`,
   description: `이승준`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://leesj-dev.github.io`,
+  siteUrl: `https://leesj.me`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -48,7 +48,7 @@ module.exports = {
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
           github: 'https://github.com/leesj-dev/leesj-dev.github.io',
-          demo: 'https://leesj-dev.github.io',
+          demo: 'https://leesj.me',
         },
       },
     ],
