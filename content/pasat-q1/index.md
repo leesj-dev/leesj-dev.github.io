@@ -39,17 +39,17 @@ The same mechanism applies to the £2 apology discount—it was applied before t
 Therefore, the price after applying the two coupons and an additional discount would be £$\{(380+29a-2-20)\times 0.9\}=$£$(26.1a+322.2)$.
 
 The next step would be to apply the 10% VAT, which makes the total price £$(28.71a+354.42)$.
-This is equivalent to \$$(28.71a+354.42)\times1.3=(37.323a+460.746)$.
-Only \$$600$ can be paid with the corporate card, which is \$$(600 \div 0.95)=\dfrac{12000}{19}$ before the 5%-off benefit of the corporate card.
-Therefore, the rest of the payment, which is \$$\left(37.323a+460.746-\dfrac{12000}{19}\right)$, was paid with US dollar cash.
+This is equivalent to &#36;$(28.71a+354.42)\times1.3=(37.323a+460.746)$.
+Only &#36;$600$ can be paid with the corporate card, which is &#36;$(600 \div 0.95)=\dfrac{12000}{19}$ before the 5%-off benefit of the corporate card.
+Therefore, the rest of the payment, which is &#36;$\left(37.323a+460.746-\dfrac{12000}{19}\right)$, was paid with US dollar cash.
 
 The next step before deducting the quantity of each type of coin is to add the extra money the woman should pay.
-First of all, the \$2 tip that the woman gave to the man should not be included in the coin quantity deduction process.
-This is because the man said the dimes, quarters, nickels, and the pennies are *on the desk*, while the \$2 tip went to the *man's pocket*.
-Next, the woman paid an extra £5 for the shipping fee, which is equivalent to \$$5\times1.3=6.5$.
-If we add this to the money that the woman paid in cash, the total would be \$$\left(37.323a+467.246-\dfrac{12000}{19} \right)$.
-The woman then paid a \$50 bill and $3$ dimes, which is a total of \$50.3.
-Therefore, using $46-3=43$ coins that include quarters, nickels, and pennies, the woman paid \$$\left(37.323a+416.946-\dfrac{12000}{19}\right)$.
+First of all, the &#36;2 tip that the woman gave to the man should not be included in the coin quantity deduction process.
+This is because the man said the dimes, quarters, nickels, and the pennies are *on the desk*, while the &#36;2 tip went to the *man's pocket*.
+Next, the woman paid an extra £5 for the shipping fee, which is equivalent to &#36;$5\times1.3=6.5$.
+If we add this to the money that the woman paid in cash, the total would be &#36;$\left(37.323a+467.246-\dfrac{12000}{19} \right)$.
+The woman then paid a &#36;50 bill and $3$ dimes, which is a total of &#36;50.3.
+Therefore, using $46-3=43$ coins that include quarters, nickels, and pennies, the woman paid &#36;$\left(37.323a+416.946-\dfrac{12000}{19}\right)$.
 Let this value as $n$.
 We will now find the maximum and minimum values of $n$ in order to specify $a$.
 If the woman paid $41$ quarters, $1$ nickle, and $1$ penny, $n=41\times0.25+1\times0.05+1\times0.01=10.31$.
@@ -64,7 +64,7 @@ $$
 
 Since $a$ is an integer, $a=6$.
 If we substitute $a=6$ in $n$, $n=37.323\times6+416.946-\dfrac{12000}{19}\approx9.305$.
-Since the minimum payment is $1$ cent, the woman has to pay \$$9.31$ to pay the rounded price.
+Since the minimum payment is $1$ cent, the woman has to pay &#36;$9.31$ to pay the rounded price.
 Let $x_{1}=$ the number of quarters the woman paid, $x_{2}=$ the number of nickles the woman paid (excluding the nickles she paid as a tip), and $x_{3}=$ the number of pennies the woman paid.
 We now have to solve the following indeterminate equation, given that $x_{1},\: x_{2},\:x_{3} \in \mathbb{N}$.
 $$
@@ -95,7 +95,7 @@ $$
     However, since $x_{3}\geq 1$, this does not satisfy $x_{1}+x_{2}+x_{3}=43$.
 
 Therefore, the woman paid $36$ quarters, $6$ nickels, and $1$ penny for the total price.
-Since she also tipped \$2 with $2\div 0.05=40$ nickels, $b$ (the total amount of nickels the woman paid) $=6+40=46$
+Since she also tipped &#36;2 with $2\div 0.05=40$ nickels, $b$ (the total amount of nickels the woman paid) $=6+40=46$
 
 $\therefore \: a+b=6+46=\boxed{\bm{52}}$
 
