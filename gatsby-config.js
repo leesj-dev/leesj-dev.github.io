@@ -21,7 +21,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: `gatsby-plugin-robots-txt`,
       options: {
         resolveEnv: () => NETLIFY_ENV,
         host: 'https://leesj.me',
