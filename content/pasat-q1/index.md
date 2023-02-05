@@ -62,28 +62,22 @@ If we substitute $a=6$ in $n$, $n=37.323\times6+416.946-\dfrac{12000}{19}\approx
 Since the minimum payment is 1 cent, the woman has to pay \$$9.31$ to pay the rounded price.
 Let $x_{1}=$ the number of quarters the woman paid, $x_{2}=$ the number of nickles the woman paid (excluding the nickles she paid as a tip), and $x_{3}=$ the number of pennies the woman paid.
 We now have to solve the following indeterminate equation, given that $x_{1},\: x_{2},\:x_{3} \in \mathbb{N}$.
-$$ \begin{cases}
-x_{1}+x_{2}+x_{3}=43 \qquad\qquad\qquad\quad\,\cdots\: \textrm{(A)} \\
-0.25x_{1}+0.05x_{2}+0.01x_{3}=9.31\quad \cdots\: \textrm{(B)}
-\end{cases}$$
+$$ \begin{cases} x_{1}+x_{2}+x_{3}=43 \qquad\qquad\qquad\quad\,\cdots\: \textrm{(A)} \\ 0.25x_{1}+0.05x_{2}+0.01x_{3}=9.31\quad \cdots\: \textrm{(B)} \end{cases}$$
 
 Multiplying $100$ at (B) gives
 
-$$ \begin{cases}
-x_{1}+x_{2}+x_{3}=43\qquad\quad\cdots\:\textrm{(A)} \\
-25x_{1}+5x_{2}+x_{3}=931\quad\cdots\:\textrm{(C)}
-\end{cases}$$
+$$ \begin{cases} x_{1}+x_{2}+x_{3}=43\qquad\quad\cdots\:\textrm{(A)} \\ 25x_{1}+5x_{2}+x_{3}=931\quad\cdots\:\textrm{(C)} \end{cases} $$
 
 Subtracting (A) and (C) leads to $$24x_{1}+4x_{2}=888$$
 $$6x_{1}+x_{2}=222$$
 
-(i) If $x_{1} \geq 37$, then $6x_{1}+x_{2}\geq 222$;
+(ⅰ) If $x_{1} \geq 37$, then $6x_{1}+x_{2}\geq 222$;
     This does not satisfy $x_{2}\geq 1$.
 
-(ii )If $x_{1}=36$, then $x_{2}=222-6\times36=6$, and  $x_{3}=43-36-6=1$.
+(ⅱ) If $x_{1}=36$, then $x_{2}=222-6\times36=6$, and  $x_{3}=43-36-6=1$.
 
-(iii) If $x_{1}\leq 35$, then $x_{2}=222-6x_{1}$, which leads to $x_{1}+x_{2}=222-5x_{1}\geq 47$.
-      However, since $x_{3}\geq 1$, this does not satisfy $x_{1}+x_{2}+x_{3}=43$.
+(ⅲ) If $x_{1}\leq 35$, then $x_{2}=222-6x_{1}$, which leads to $x_{1}+x_{2}=222-5x_{1}\geq 47$.
+    However, since $x_{3}\geq 1$, this does not satisfy $x_{1}+x_{2}+x_{3}=43$.
 
 Therefore, the woman paid $36$ quarters, $6$ nickels, and $1$ penny for the total price.
 Since she also tipped \$2 with $2\div 0.05=40$ nickels, $b$ (the total amount of nickels the woman paid) $=6+40=46$
