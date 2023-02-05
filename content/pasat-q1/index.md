@@ -7,13 +7,13 @@ tags: PASAT
 categories: PASAT
 ---
 
-# 문제
+## 문제
 ![Q1.svg](Q1.svg)
 
-# 정답
+## 정답
 52
 
-# 해설
+## 해설
 $29$ students and the teacher are going to buy the T-shirts, so the total number of people buying the T-shirts is $30$.
 Let $a_{1}$ as the quantity of small-sized T-shirts, $a_{2}$ as the quantity of medium-sized T-shirts, $a_{3}$ as the quantity of large-sized T-shirts, $a_{4}$ as the quantity of extra-large-sized T-shirts, and $a_{5}$ as the quantity of extra-extra-large-sized T-shirts.
 Since $a_{1},\:a_{2},\:a_{3},\:a_{4},\:a_{5}$ are in arithmetic progression and $\displaystyle\sum_{k=1}^{5}{a_k}=30$, the arithmetic mean would be $a_{3}=\displaystyle\frac{30}{5}=6$.
