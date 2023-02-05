@@ -10,8 +10,12 @@ categories: PASAT
 ## 문제
 ![Q1.svg](Q1.svg)
 
+- - -
+
 ## 정답
 52
+
+- - -
 
 ## 해설
 $29$ students and the teacher are going to buy the T-shirts, so the total number of people buying the T-shirts is $30$.
