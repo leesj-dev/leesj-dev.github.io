@@ -105,5 +105,6 @@ Since she also tipped \$2 with $2\div 0.05=40$ nickels,
 $b$ (the total amount of nickels the woman paid) $=6+40=46$
 
 $\therefore \: a+b=6+46=\boxed{\bm{52}}$
+
 ```toc
 ```
