@@ -15,7 +15,7 @@ categories: 자동화
 최신 버전의 [Android Studio](https://developer.android.com/studio)를 설치한다.
 프로그램을 실행한 후, More Actions을 눌러 SDK Manager로 간다. Android 13.0 (Tiramisu)을 다운로드한다. 화면 상단에 보면 `Android SDK Location`이 있는데, 나중에 이 경로를 쓸 것이니 미리 복사해두기 바란다. 일반적으로 아래와 같을 것이다.
 * Windows: `C:\Users\[사용자 이름]\AppData\Local\Android\SDK`
-* Mac: `/Users/[사용자 이름]/Library/Android/sdk`이다.
+* Mac: `/Users/[사용자 이름]/Library/Android/sdk`
 ![android-automation-1.png](android-automation-1.png)
 
 다시 처음화면으로 돌아가 More Actions의 Virtual Device Manager로 간다. Create Device를 누르고 Pixel 4, Android 13.0 (Tiramisu)를 선택한다. 이후 플레이 버튼을 누르면 가상 안드로이드 디바이스가 실행된다.
@@ -63,7 +63,7 @@ Desired Capabilities에 [`platformName`, `text`, `Android`]를 추가한다. (�
 
 Terminal 혹은 Command Prompt에 아래를 입력한다.
 * `pip install Appium-Python-Client` : Appium의 파이썬 클라이언트를 설치한다.
-* `pip install selenium` : selenium의 여러 함수(By 등)을 사용하기 위해 설치한다.
+* `pip install selenium` : selenium의 여러 함수(By 등)를 사용하기 위해 설치한다.
 
 # 2. 코드 작성 방법
 Appium은 selenium의 웹 크롤링과 유사한 방식으로 작동된다. 가령, Google Calendar 앱 내에서 검색 버튼을 클릭하고 싶다고 해보자.

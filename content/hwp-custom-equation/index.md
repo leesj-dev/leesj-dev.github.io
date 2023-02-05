@@ -4,16 +4,16 @@ title: 한글 수식 커스텀 폰트 만들기
 date: '2022-08-10 16:00:00'
 author: 이승준
 tags: 수식 폰트 LaTeX
-categories: 한글
+categories: 한/글
 ---
 
 ## 1. 왜 커스텀 수식 폰트가 필요한가?
 바로 '못 생겨서'이다. 개인적으로 LaTeX의 기본 수식이 상당히 미려하다고 생각하는데, 한/글의 HyHwpEQ는 이를 어설프게 배껴 수식 상태가 좋지 못하다. 또 HancomEQN은 태광수식으로부터 나온 폰트이나 이것 역시 출판할 수 있을 정도로 상태가 좋진 않다. 여기에서는 HyHwpEQ 수식 커스텀 위주로 설명할 것인데, 내가 발견한 HyHwpEQ의 문제점은 다음과 같다.
-1) 로만체 알파벳이 예쁘지 않으며 이탤릭체 알파벳과 굵기가 다름
-2) 등호가 없는 부등호와 등호가 있는 부등호의 글자 가로폭이 다르고 roundness도 다름
-3) plus-minus 기호의 roundness와 굵기가 plus와 minus 기호와 다름
-4) 등호 뒤에 minus sign을 입력하면 너무 달라붙고, 1/4칸 띄우면 간격이 너무 큰 문제 (사실 이는 1/4칸 대신 it나 rm을 선언하면 간격이 딱 맞게 되는 일종의 편법이 있긴 하다)
-5) 루트 기호를 사용할 때 위의 '가로선'이 살짝 튀어나와 있음
+1) 로만체 알파벳이 예쁘지 않으며 이탤릭체 알파벳과 굵기가 다름.
+2) 등호가 없는 부등호와 등호가 있는 부등호의 글자 가로폭이 다르고 roundness도 다름.
+3) plus-minus 기호의 roundness와 굵기가 plus와 minus 기호와 다름.
+4) 등호 뒤에 minus sign을 입력하면 너무 달라붙고, 1/4칸 띄우면 간격이 너무 큼. (사실 이는 1/4칸 대신 it나 rm을 선언하면 간격이 딱 맞게 되는 일종의 편법이 있긴 하다)
+5) 루트 기호를 사용할 때 위의 '가로선'이 살짝 튀어나와 있음.
 6) 수식 내 한글을 사용하고자 할 때 폰트 변경이 불가능함. 수식과 한글을 따로 쓰면 되지 않냐는 반론이 있을 수 있지만 cases문이나 집합을 사용해보면 이것이 필요한 이유를 알 수 있을 것임.
 7) 원시함수에 대괄호를 씌우는 [F(x)]^2 _1 과 같은 예에서, F(x)에 분수가 포함되어 있지 않으면 대괄호 크기를 늘려주기 위해 강제로 ```pile{`#`}``` 등과 같은 억지를 부려야 하는데, 이 과정에서 대괄호와 F(x) 사이 한 칸을 더 띄워야 하므로 불편함.
 
@@ -22,9 +22,9 @@ categories: 한글
 ## 2. 한글 수식에 대하여
 필자가 지금까지 사용해 본 한컴오피스 한/글 중 가장 오래된 버전은 한/글 2005였다. 하지만 한/글 2005에 대한 기억은 거의 없고, 초등학교 시절에는 주로 한/글 2007이나 2010을, 중학교 때는 한/글 2018을 주로 사용해왔다. 이후 맥으로 넘어오게 되면서 한/글 2014 VP for Mac을 주력으로 (놀랍게도 맥용 한/글은 2014가 2022년 현재 최신버전이다), 윈도우용 한/글 2020과 2022를 가상 데스크톱에 물려 사용하고 있다.
 
-나무위키에 의하면 한/글에 수식이 도입된 것은 2.0~2.5 시절이나, 이에 대한 정보는 찾아볼 수 없었으며 인터넷에서 찾을 수 있는 가장 오래된 한/글 수식입력기는 한글 97이었다. 한/글 97~2002 시절에는 수식입력기에 "수식"이라는 글꼴을 사용하였는데, 말 그대로 폰트 이름이 "수식"이다. (파일명은 `HSUSR.HFT`와 `HSUSRI.HFT`) 이 폰트는 최신 버전의 한/글에서도 만나볼 수 있는데, 한/글의 글자 모양 탭에서 글자 언어를 '영어'로 바꾼 후 "수식"이라고 적힌 폰트를 검색하면 체험해볼 수 있다. 또는 한/글 문서를 '한글 97~3.0' 형식으로 저장해도 옛날 버전의 수식이 뜬다.
+나무위키에 의하면 한/글에 수식이 도입된 것은 2.0&#126;2.5 시절이나, 이에 대한 정보는 찾아볼 수 없었으며 인터넷에서 찾을 수 있는 가장 오래된 한/글 수식입력기는 한글 97이었다. 한/글 97&#126;2002 시절에는 수식입력기에 "수식"이라는 글꼴을 사용하였는데, 말 그대로 폰트 이름이 "수식"이다. (파일명은 `HSUSR.HFT`와 `HSUSRI.HFT`) 이 폰트는 최신 버전의 한/글에서도 만나볼 수 있는데, 한/글의 글자 모양 탭에서 글자 언어를 '영어'로 바꾼 후 "수식"이라고 적힌 폰트를 검색하면 체험해볼 수 있다. 또는 한/글 문서를 '한글 97&#126;3.0' 형식으로 저장해도 옛날 버전의 수식이 뜬다.
 
-한/글 2004부터는 수식 폰트가 `HYHWPEQ.TTF`로 바뀌었으며 현재 최신 버전까지 이 폰트를 사용하고 있다. 이 폰트의 제작자는 한양정보통신이다. 그런데 한/글 2004~2007 시절의 수식과 2010~2022의 수식을 자세히 살펴보던 중 미세하게 다르다는 것을 알게 되었다. 실제로 한/글 버전에 따라 `HYHWPEQ.TTF`의 버전도 같이 변하는데, 2004~2007 때는 버전 `1.10`, 2010부터 현재까지는 버전 `1.13`을 사용하고 있다. 두 버전의 가장 큰 차이점은 로만체이다. 한글 2004~2007의 수식 폰트는 LaTeX의 디폴트 폰트인 Computer Modern Serif를 거의 그대로 가져왔는데, 2010 이후부터는 그 중 로만체 글자를 HY신명조로 추정되는 다른 폰트로 바꿨다. 또 폰트 파일을 분석해보면 각 글자가 할당된 유니코드 값이나, 글자의 세로폭 등 디테일한 부분들이 다르다. 이는 `1.10` 버전의 TTF 파일을 최신 한/글 버전에 깔면 글자가 깨져서 나오는 이유이다.
+한/글 2004부터는 수식 폰트가 `HYHWPEQ.TTF`로 바뀌었으며 현재 최신 버전까지 이 폰트를 사용하고 있다. 이 폰트의 제작자는 한양정보통신이다. 그런데 한/글 2004&#126;2007 시절의 수식과 2010&#126;2022의 수식을 자세히 살펴보던 중 미세하게 다르다는 것을 알게 되었다. 실제로 한/글 버전에 따라 `HYHWPEQ.TTF`의 버전도 같이 변하는데, 2004&#126;2007 때는 버전 `1.10`, 2010부터 현재까지는 버전 `1.13`을 사용하고 있다. 두 버전의 가장 큰 차이점은 로만체이다. 한글 2004&#126;2007의 수식 폰트는 LaTeX의 디폴트 폰트인 Computer Modern Serif를 거의 그대로 가져왔는데, 2010 이후부터는 그 중 로만체 글자를 HY신명조로 추정되는 다른 폰트로 바꿨다. 또 폰트 파일을 분석해보면 각 글자가 할당된 유니코드 값이나, 글자의 세로폭 등 디테일한 부분들이 다르다. 이는 `1.10` 버전의 TTF 파일을 최신 한/글 버전에 깔면 글자가 깨져서 나오는 이유이다.
 
 한편 한/글 2018부터는 `HancomEQN.TTF`라는 새로운 폰트를 만들었으며 이는 태광서체에서 개발하였다. 태광수식은 본래 쿽과 인디자인에서의 수식 조판을 위해 만들어진 일종의 플러그인인데, 여기에서 라이선스를 가져온 듯하다. 실제로 태광수식으로 만들어진 출판물과 `HancomEQN.TTF`으로 만든 수식을 비교해보면 문자의 생김새가 동일하다는 것을 알 수 있다. 물론 후자 쪽이 문자 간 간격이나 기타 디테일한 부분이 아쉬운 면이 있다.
 
@@ -39,7 +39,85 @@ categories: 한글
 
 ## 4. 수식 입력창에 폰트가 뜨게 만들기
 이제 수식 입력창에 폰트가 뜨게 만들어야 하는데, 가장 간단한 방법은 `HyHwpEQ.TTF`나 `HancomEQN.TTF` 파일을 덮어씌우는 게 있다. 하지만 이렇게 하면 원본 폰트를 사용하지 못하게 되므로, 폰트를 하나 추가하여 한/글 수식입력기의 드롭다운 메뉴에서 선택할 수 있도록 방안을 마련하였다.
-우선 커스텀한 폰트 파일을 컴퓨터에 설치하고, `C:\Program Files (x86)\HNC\Office 2022\HOffice120\Bin\EqEditor`에 들어가면
+우선 커스텀한 폰트 파일을 컴퓨터에 설치하고, `C:\Program Files (x86)\HNC\Office 2022\HOffice120\Bin\EqEditor`에 들어가면 [미완성]
+
+$a^2 + b^2 = c^2$
+
+$$
+a^2 + b^2 = c^2
+$$
+
+
+<iframe>
+    <head>
+        <style>
+            @font-face { font-family: 'HY중명조'; src: url('./fonts/HY중명조.woff') format('woff'); unicode-range: U+AC00-D7A3;}
+            @font-face { font-family: 'HY신명조'; src: url('./fonts/HY신명조.woff') format('woff'); }
+            @font-face { font-family: 'HY견명조'; src: url('./fonts/HY견명조.woff') format('woff'); }
+            * { font-family: 'HY중명조', 'HY신명조'; font-size: 17px; letter-spacing: -0.7px; word-break: keep-all; line-height: 160%; text-align: justify; }
+        </style>
+    </head>
+    <body style="margin: auto; margin-top: 20px; width: 500px; column-count: 1;">
+        <div style="float: left; width: 20px; font-size: 20px; font-family: 'HY견명조'; line-height: 120%;">
+            3.
+        </div>
+        <div style="padding: 0px 0px 10px 0px; float: left; width: calc(100% - 20px); text-indent: 10px; ">
+            다음은 세포 호흡에 대한 자료이다. ㉠과 ㉡은 각각 ADP와 ATP 중 하나이다.
+        </div>
+        <table style="margin: 0px 0px 10px 20px; border-spacing: 0px; border-collapse: collapse; width: 480px;">
+            <tr>
+                <td style="padding: 10px 12px; border-style: solid; border-color: black; border-width: 1px;">
+                    <div>
+                        <div style="float: left; width: 8%; line-height: 150%;">(가)</div>
+                        <div style="float: left; width: 92%; line-height: 150%;">포도당은 세포 호흡을 통해 물과 이산화 탄소로 분해된다.</div>
+                    </div>
+                    <div>
+                        <div style="float: left; width: 8%; line-height: 150%;">(나)</div>
+                        <div style="float: left; width: 92%; letter-spacing: -1.3px; line-height: 150%;">세포 호흡 과정에서 방출된 에너지의 일부는 ㉠에 저장되며, ㉠이 ㉡과 무기 인산(P<sub><i>i</i></sub>)으로 분해될 때 방출된 에너지는 생명 활동에 사용된다.</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div style="margin-left: 20px; text-indent: 15px;">이에 대한 설명으로 옳은 것만을 &lt;보기&gt;에서 있는 대로 고른 것은? [3점]</div>
+        <table style="margin: 0px 0px 10px 20px; border-spacing: 0px; border-collapse: collapse; width: 480px;">
+            <tr>
+                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 0px 0px 1px 0px; width: 43.5%;"></td>
+                <td rowspan="2" style="padding: 0px; width: 13%;">
+                    <div style="text-align: center;">&lt;보&nbsp;&nbsp;기&gt;</div>
+                </td>
+                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 0px 0px 1px 0px; width: 43.5%;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 1px 0px 0px 1px; width: 43%;"></td>
+                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 1px 1px 0px 0px; width: 57%;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding: 5px 15px 10px 15px; border-style: solid; border-color: black; border-width: 0px 1px 1px 1px;">
+                    <div>
+                        <div style="float: left; width: 6.5%;">ㄱ.</div>
+                        <div style="float: left; width: 93.5%;">(가)에서 이화 작용이 일어난다.</div>
+                    </div>
+                    <div>
+                        <div style="float: left; width: 6.5%;">ㄴ.</div>
+                        <div style="float: left; width: 93.5%;">미토콘드리아에서 ㉡이 ㉠으로 전환된다.</div>
+                    <div>
+                        <div style="float: left; width: 6.5%;">ㄷ.</div>
+                        <div style="float: left; width: 93.5%;">포도당이 분해되어 생성된 에너지의 일부는 체온 유지에 사용된다.</div>
+                </td>
+            </tr>
+        </table>
+        <table style="margin-left: 20px;">
+            <tr>
+                <td style="width: 20%;">① ㄱ</td>
+                <td style="width: 20%;">② ㄴ</td>
+                <td style="width: 20%;">③ ㄱ, ㄷ</td>
+                <td style="width: 20%;">④ ㄴ, ㄷ</td>
+                <td style="width: 20%;">⑤ ㄱ, ㄴ, ㄷ</td>
+            </tr>
+        </table>
+    </body>
+</iframe>
+
 
 ## 5. 수식 폰트 일괄 변경하기
 

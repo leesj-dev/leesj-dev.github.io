@@ -7,6 +7,7 @@ import PostNavigator from '../components/post-navigator';
 import Post from '../models/post';
 import PostContent from '../components/post-content';
 import Utterances from '../components/utterances';
+import '../../node_modules/katex/dist/katex.min.css';
 
 function BlogTemplate({ data }) {
   const [viewCount, setViewCount] = useState(null);
