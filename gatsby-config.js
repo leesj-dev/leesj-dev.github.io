@@ -66,13 +66,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-copy-linked-files`,
-            options: {
-              destinationDir: `path/to/dir`,
-              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
-            },
-          },
-          {
             resolve: `gatsby-remark-katex`,
             options: {
               strict: `ignore`
@@ -129,6 +122,7 @@ module.exports = {
             },
           },
           `gatsby-remark-autolink-headers`,
+          `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
       },
