@@ -48,7 +48,7 @@ First of all, the &#36;2 tip that the woman gave to the man should not be includ
 This is because the man said the dimes, quarters, nickels, and the pennies are *on the desk*, while the &#36;2 tip went to the *man's pocket*.
 Next, the woman paid an extra £5 for the shipping fee, which is equivalent to &#36;$5\times1.3=6.5$.
 If we add this to the money that the woman paid in cash, the total would be &#36;$\left(37.323a+467.246-\dfrac{12000}{19} \right)$.
-The woman then paid a &#36;50 bill and 3 dimes, which is a total of &#36;50.3.
+The woman then paid a &#36;50 bill and $3$ dimes, which is a total of &#36;50.3.
 Therefore, using $46-3=43$ coins that include quarters, nickels, and pennies, the woman paid &#36;$\left(37.323a+416.946-\dfrac{12000}{19}\right)$.
 Let this value as $n$.
 We will now find the maximum and minimum values of $n$ in order to specify $a$.
@@ -59,7 +59,7 @@ $$5.769 \lessapprox a \lessapprox 6.026$$
 
 Since $a$ is an integer, $a=6$.
 If we substitute $a=6$ in $n$, $n=37.323\times6+416.946-\dfrac{12000}{19}\approx9.305$.
-Since the minimum payment is 1 cent, the woman has to pay \$$9.31$ to pay the rounded price.
+Since the minimum payment is $1$ cent, the woman has to pay \$$9.31$ to pay the rounded price.
 Let $x_{1}=$ the number of quarters the woman paid, $x_{2}=$ the number of nickles the woman paid (excluding the nickles she paid as a tip), and $x_{3}=$ the number of pennies the woman paid.
 We now have to solve the following indeterminate equation, given that $x_{1},\: x_{2},\:x_{3} \in \mathbb{N}$.
 $$ \begin{cases} x_{1}+x_{2}+x_{3}=43 \qquad\qquad\qquad\quad\,\cdots\: \textrm{(A)} \\ 0.25x_{1}+0.05x_{2}+0.01x_{3}=9.31\quad \cdots\: \textrm{(B)} \end{cases}$$
