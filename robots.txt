@@ -1,3 +1,4 @@
 User-agent: *
-Sitemap: https://leesj-dev.github.io/sitemap-index.xml
-Host: https://leesj-dev.github.io
+Allow: /
+Sitemap: https://leesj.me/sitemap-pages.xml
+Host: https://leesj.me
