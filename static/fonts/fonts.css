@@ -2,61 +2,61 @@
 	font-family: 'Pretendard';
 	font-weight: 900;
 	font-display: swap;
-	src: local('Pretendard Black'),url('./woff2-subset/Pretendard-Black.subset.woff2') format('woff2');
+	src: local('Pretendard Black'),url('./Pretendard-Black.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 800;
 	font-display: swap;
-	src: local('Pretendard ExtraBold'), url('./woff2-subset/Pretendard-ExtraBold.subset.woff2') format('woff2');
+	src: local('Pretendard ExtraBold'), url('./Pretendard-ExtraBold.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 700;
 	font-display: swap;
-	src: local('Pretendard Bold'), url('./woff2-subset/Pretendard-Bold.subset.woff2') format('woff2');
+	src: local('Pretendard Bold'), url('./Pretendard-Bold.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 600;
 	font-display: swap;
-	src: local('Pretendard SemiBold'), url('./woff2-subset/Pretendard-SemiBold.subset.woff2') format('woff2');
+	src: local('Pretendard SemiBold'), url('./Pretendard-SemiBold.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 500;
 	font-display: swap;
-	src: local('Pretendard Medium'), url('./woff2-subset/Pretendard-Medium.subset.woff2') format('woff2');
+	src: local('Pretendard Medium'), url('./Pretendard-Medium.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 400;
 	font-display: swap;
-	src: local('Pretendard Regular'), url('./woff2-subset/Pretendard-Regular.subset.woff2') format('woff2');
+	src: local('Pretendard Regular'), url('./Pretendard-Regular.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 300;
 	font-display: swap;
-	src: local('Pretendard Light'), url('./woff2-subset/Pretendard-Light.subset.woff2') format('woff2');
+	src: local('Pretendard Light'), url('./Pretendard-Light.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 200;
 	font-display: swap;
-	src: local('Pretendard ExtraLight'), url('./woff2-subset/Pretendard-ExtraLight.subset.woff2') format('woff2');
+	src: local('Pretendard ExtraLight'), url('./Pretendard-ExtraLight.subset.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 100;
 	font-display: swap;
-	src: local('Pretendard Thin'), url('./woff2-subset/Pretendard-Thin.subset.woff2') format('woff2');
+	src: local('Pretendard Thin'), url('./Pretendard-Thin.subset.woff2') format('woff2');
 }
