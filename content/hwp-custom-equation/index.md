@@ -1,5 +1,4 @@
 ---
-emoji: 😀
 title: 한글 수식 커스텀 폰트 만들기
 date: '2022-08-10 16:00:00'
 author: 이승준
@@ -40,78 +39,6 @@ categories: 한글
 ## 4. 수식 입력창에 폰트가 뜨게 만들기
 이제 수식 입력창에 폰트가 뜨게 만들어야 하는데, 가장 간단한 방법은 `HyHwpEQ.TTF`나 `HancomEQN.TTF` 파일을 덮어씌우는 게 있다. 하지만 이렇게 하면 원본 폰트를 사용하지 못하게 되므로, 폰트를 하나 추가하여 한/글 수식입력기의 드롭다운 메뉴에서 선택할 수 있도록 방안을 마련하였다.
 우선 커스텀한 폰트 파일을 컴퓨터에 설치하고, `C:\Program Files (x86)\HNC\Office 2022\HOffice120\Bin\EqEditor`에 들어가면 [미완성]
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            @font-face { font-family: 'HY중명조'; src: url('./fonts/HY중명조.woff') format('woff'); unicode-range: U+AC00-D7A3;}
-            @font-face { font-family: 'HY신명조'; src: url('./fonts/HY신명조.woff') format('woff'); }
-            @font-face { font-family: 'HY견명조'; src: url('./fonts/HY견명조.woff') format('woff'); }
-            * { font-family: 'HY중명조', 'HY신명조'; font-size: 17px; letter-spacing: -0.7px; word-break: keep-all; line-height: 160%; text-align: justify; }
-        </style>
-    </head>
-    <body style="margin: auto; margin-top: 20px; width: 500px; column-count: 1;">
-        <div style="float: left; width: 20px; font-size: 20px; font-family: 'HY견명조'; line-height: 120%;">
-            3.
-        </div>
-        <div style="padding: 0px 0px 10px 0px; float: left; width: calc(100% - 20px); text-indent: 10px; ">
-            다음은 세포 호흡에 대한 자료이다. ㉠과 ㉡은 각각 ADP와 ATP 중 하나이다.
-        </div>
-        <table style="margin: 0px 0px 10px 20px; border-spacing: 0px; border-collapse: collapse; width: 480px;">
-            <tr>
-                <td style="padding: 10px 12px; border-style: solid; border-color: black; border-width: 1px;">
-                    <div>
-                        <div style="float: left; width: 8%; line-height: 150%;">(가)</div>
-                        <div style="float: left; width: 92%; line-height: 150%;">포도당은 세포 호흡을 통해 물과 이산화 탄소로 분해된다.</div>
-                    </div>
-                    <div>
-                        <div style="float: left; width: 8%; line-height: 150%;">(나)</div>
-                        <div style="float: left; width: 92%; letter-spacing: -1.3px; line-height: 150%;">세포 호흡 과정에서 방출된 에너지의 일부는 ㉠에 저장되며, ㉠이 ㉡과 무기 인산(P<sub><i>i</i></sub>)으로 분해될 때 방출된 에너지는 생명 활동에 사용된다.</div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div style="margin-left: 20px; text-indent: 15px;">이에 대한 설명으로 옳은 것만을 &lt;보기&gt;에서 있는 대로 고른 것은? [3점]</div>
-        <table style="margin: 0px 0px 10px 20px; border-spacing: 0px; border-collapse: collapse; width: 480px;">
-            <tr>
-                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 0px 0px 1px 0px; width: 43.5%;"></td>
-                <td rowspan="2" style="padding: 0px; width: 13%;">
-                    <div style="text-align: center;">&lt;보&nbsp;&nbsp;기&gt;</div>
-                </td>
-                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 0px 0px 1px 0px; width: 43.5%;"></td>
-            </tr>
-            <tr>
-                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 1px 0px 0px 1px; width: 43%;"></td>
-                <td style="padding: 5px; border-style: solid; border-color: black; border-width: 1px 1px 0px 0px; width: 57%;"></td>
-            </tr>
-            <tr>
-                <td colspan="3" style="padding: 5px 15px 10px 15px; border-style: solid; border-color: black; border-width: 0px 1px 1px 1px;">
-                    <div>
-                        <div style="float: left; width: 6.5%;">ㄱ.</div>
-                        <div style="float: left; width: 93.5%;">(가)에서 이화 작용이 일어난다.</div>
-                    </div>
-                    <div>
-                        <div style="float: left; width: 6.5%;">ㄴ.</div>
-                        <div style="float: left; width: 93.5%;">미토콘드리아에서 ㉡이 ㉠으로 전환된다.</div>
-                    <div>
-                        <div style="float: left; width: 6.5%;">ㄷ.</div>
-                        <div style="float: left; width: 93.5%;">포도당이 분해되어 생성된 에너지의 일부는 체온 유지에 사용된다.</div>
-                </td>
-            </tr>
-        </table>
-        <table style="margin-left: 20px;">
-            <tr>
-                <td style="width: 20%;">① ㄱ</td>
-                <td style="width: 20%;">② ㄴ</td>
-                <td style="width: 20%;">③ ㄱ, ㄷ</td>
-                <td style="width: 20%;">④ ㄴ, ㄷ</td>
-                <td style="width: 20%;">⑤ ㄱ, ㄴ, ㄷ</td>
-            </tr>
-        </table>
-    </body>
-</html>
-
 
 ## 5. 수식 폰트 일괄 변경하기
 
