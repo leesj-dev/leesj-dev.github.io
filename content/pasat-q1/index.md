@@ -52,8 +52,11 @@ The woman then paid a \$50 bill and $3$ dimes, which is a total of \$50.3.
 Therefore, using $46-3=43$ coins that include quarters, nickels, and pennies, the woman paid \$$\left(37.323a+416.946-\dfrac{12000}{19}\right)$.
 Let this value as $n$.
 We will now find the maximum and minimum values of $n$ in order to specify $a$.
+
 If the woman paid $41$ quarters, $1$ nickle, and $1$ penny, $n=41\times0.25+1\times0.05+1\times0.01=10.31$.
+
 If the woman paid $1$ quarter, $1$ nickle, and $41$ pennies, $n=1\times0.25+1\times0.05+41\times0.01=0.71$.
+
 $$
 0.71 \leq 37.323a+416.946-\dfrac{12000}{19} \leq 10.31
 $$
@@ -62,16 +65,22 @@ $$
 $$
 
 Since $a$ is an integer, $a=6$.
-If we substitute $a=6$ in $n$, $n=37.323\times6+416.946-\dfrac{12000}{19}\approx9.305$.
+If we substitute $a=6$ in $n$,
+
+$n=37.323\times6+416.946-\dfrac{12000}{19}\approx9.305$.
 Since the minimum payment is $1$ cent, the woman has to pay \$$9.31$ to pay the rounded price.
 Let $x_{1}=$ the number of quarters the woman paid, $x_{2}=$ the number of nickles the woman paid (excluding the nickles she paid as a tip), and $x_{3}=$ the number of pennies the woman paid.
 We now have to solve the following indeterminate equation, given that $x_{1},\: x_{2},\:x_{3} \in \mathbb{N}$.
 
-$$ \begin{cases} x_{1}+x_{2}+x_{3}=43 \qquad\qquad\qquad\quad\,\cdots\: \textrm{(A)} \\ 0.25x_{1}+0.05x_{2}+0.01x_{3}=9.31\quad \cdots\: \textrm{(B)} \end{cases}$$
+$$
+\begin{cases} x_{1}+x_{2}+x_{3}=43 \qquad\qquad\qquad\quad\,\cdots\: \textrm{(A)} \\ 0.25x_{1}+0.05x_{2}+0.01x_{3}=9.31\quad \cdots\: \textrm{(B)} \end{cases}
+$$
 
 Multiplying $100$ at (B) gives
 
-$$ \begin{cases} x_{1}+x_{2}+x_{3}=43\qquad\quad\cdots\:\textrm{(A)} \\ 25x_{1}+5x_{2}+x_{3}=931\quad\cdots\:\textrm{(C)} \end{cases} $$
+$$
+\begin{cases} x_{1}+x_{2}+x_{3}=43\qquad\quad\cdots\:\textrm{(A)} \\ 25x_{1}+5x_{2}+x_{3}=931\quad\cdots\:\textrm{(C)} \end{cases}
+$$
 
 Subtracting (A) and (C) leads to
 $$
@@ -91,7 +100,9 @@ $$
     However, since $x_{3}\geq 1$, this does not satisfy $x_{1}+x_{2}+x_{3}=43$.
 
 Therefore, the woman paid $36$ quarters, $6$ nickels, and $1$ penny for the total price.
-Since she also tipped \$2 with $2\div 0.05=40$ nickels, $b$ (the total amount of nickels the woman paid) $=6+40=46$
+Since she also tipped \$2 with $2\div 0.05=40$ nickels,
+
+$b$ (the total amount of nickels the woman paid) $=6+40=46$
 
 $\therefore \: a+b=6+46=\boxed{\bm{52}}$
 ```toc
