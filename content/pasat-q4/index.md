@@ -68,6 +68,10 @@ $\begin{aligned} \displaystyle\int_{\,0}^{\,t} h(s) \: \mathrm{d}s &= th(t) - \d
 
 $\begin{aligned} g(x)&=\lim\limits_{t\rightarrow0}\dfrac{\dfrac{1}{2}\displaystyle\int_{\,0}^{\,t}{h(s) \: \mathrm{d} s}}{\dfrac{1}{2}\,h(t) \sin t} \\ &= \lim\limits_{t\rightarrow0}\dfrac{th(t) - \dfrac{1}{2} \left\{-\dfrac{x}{2} t^4 - \cos \left(t^2 \right) + 1 \right\}}{\sin t \cdot h(t)} \\ &= \lim\limits_{t\rightarrow0}\dfrac{t}{\sin t} + \dfrac{1}{4} \lim\limits_{t\rightarrow0}\dfrac{xt^4}{\sin t \cdot h(t)}-\dfrac{1}{2} \lim\limits_{t\rightarrow0}\dfrac{1-\cos\left(t^2\right)}{\sin t \cdot h(t)} \\ &= 1 + \dfrac{1}{4} \lim\limits_{t \rightarrow 0}\dfrac{(x-1) t^3}{h(t)}\end{aligned}$
 
+<br>
+
+### Step 3. 답 구하기
+
 (ⅰ) $x$가 $h(0) = 0$ 을 만족할 때
 
 $i(t) = (x-1)t^3$ 로 두면, $i^{\prime}(t) = 3(x-1)t^2$ 이므로
@@ -76,9 +80,6 @@ $\lim\limits_{t \rightarrow 0} \dfrac{i(t)}{h(t)} = \lim\limits_{t \rightarrow 0
 
 $g(x)=1-\dfrac{3}{4}=\dfrac{1}{4}$
 
-$l=\sqrt{t}$ 라 하면 $\mathrm{d} t = 2l \: \mathrm{d} l$ 이므로,
-
-$\displaystyle\int_{\,0}^{\,\pi}\dfrac{\sin t}{\sqrt t} \: \mathrm{d} t = \displaystyle\int_{\,0}^{\,\sqrt{\pi}}\dfrac{\sin \left(l^2 \right)}{l} \cdot 2l \: \mathrm{d} l = 2 \displaystyle\int_{\,0}^{\,\sqrt{\pi}}\sin \left(l^2 \right)\mathrm{d} l$
 
 $\begin{aligned} h(0)&=\displaystyle\int _{\sqrt{\pi}} ^{\,0} \left\{\sin\left(l^2\right) - xl^2\right\}\mathrm{d}l \\ &= \bigg[ -\dfrac{x}{3} l^{3} \, \bigg] _{0}^{\sqrt{\pi}} - 2 \displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l = 0\end{aligned}$
 
@@ -86,9 +87,12 @@ $\displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l = -
 
 $\displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l$ 은 상수이므로, 위 식을 만족시키는 $x$ 는 $\alpha$ 로 유일하다.
 
-(다시 말해 $g(m)=\dfrac{1}{4}$ 을 만족하는 $m$ 은 $\alpha = -\dfrac{6\int_{0}^{\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l}{\pi \sqrt{\pi}}$ 로 유일하다.)
+(다시 말해 $g(m)=\dfrac{1}{4} = k$ 를 만족하는 $m$ 은 $\alpha = -\dfrac{6\int_{0}^{\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l}{\pi \sqrt{\pi}}$ 로 유일하다.)
 
-따라서 $f(\alpha)=\dfrac{1}{4}=k$ 이고, $\displaystyle\int_{\,0}^{\,\pi}\dfrac{\sin t}{\sqrt t} \: \mathrm{d} t = -\dfrac{x}{3} \pi^{\frac{3}{2}}$
+
+$l=\sqrt{t}$ 라 하면 $\mathrm{d} t = 2l \: \mathrm{d} l$ 이므로,
+
+$\displaystyle\int_{\,0}^{\,\pi}\dfrac{\sin t}{\sqrt t} \: \mathrm{d} t = \displaystyle\int_{\,0}^{\,\sqrt{\pi}}\dfrac{\sin \left(l^2 \right)}{l} \cdot 2l \: \mathrm{d} l = 2 \displaystyle\int_{\,0}^{\,\sqrt{\pi}}\sin \left(l^2 \right)\mathrm{d} l = -\dfrac{x}{3} \pi^{\frac{3}{2}}$
 
 $pk=3$ 이므로 $p=12$, $q=2$, $r=3$
 
@@ -98,7 +102,7 @@ $\therefore p \times (q + r) = 60$
 
 (ⅱ) $x$가 $h(0) \neq 0$ 을 만족할 때
 
-$\lim\limits_{t \rightarrow 0}\dfrac{(x-1) t^3}{h(t)} = 0$ 이므로 $g(x)=1$ 이다. 그런데 앞에서 $h(0) = 0$ 을 만족하는 $x$ 는 단 한 개임을 보였으므로, $h(0) \neq 0$ 을 만족하는 $x$ 는 무수히 많다. 고로 $g(m)=1$ 을 만족하는 $m$ 이 $\alpha$ 뿐인 경우는 없다.
+$\lim\limits_{t \rightarrow 0}\dfrac{(x-1) t^3}{h(t)} = 0$ 이므로 $g(x)=1$ 이다. 그런데 앞에서 $h(0) = 0$ 을 만족하는 $x$ 는 단 한 개임을 보였으므로, $h(0) \neq 0$ 을 만족하는 $x$ 는 무수히 많다. 고로 이 경우에서 $g(m)=1$ 을 만족하는 $m$ 이 $\alpha$ ‘뿐’인 경우는 없다.
 
 
 
