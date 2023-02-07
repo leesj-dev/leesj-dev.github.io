@@ -48,7 +48,7 @@ $\therefore \cos f(x) = x$
 
 ### Step 2. $g(x)$ 구하기
 
-$\displaystyle\int _{\,\frac{\pi}{2}}^{\,2y}\sin z \: \mathrm{d}z = \bigg[\,-\cos z \,\bigg]_{\frac{\pi}{2}}^{2y} = -\cos 2y$
+$\displaystyle\int _{\,\frac{\pi}{2}}^{\,2y}\sin z \: \mathrm{d}z = \bigg[-\cos z \,\bigg]_{\frac{\pi}{2}}^{2y} = -\cos 2y$
 
 $\displaystyle\int _{\,0}^{\,\frac{w}{2}}-\cos 2y \: \mathrm{d}y = \left[\,-\dfrac{1}{2}\sin 2y \,\right]_{0}^{\frac{w}{2}} = -\dfrac{1}{2} \sin w$
 
@@ -64,7 +64,7 @@ $\begin{aligned} \displaystyle\int_{\,0}^{\,t} h(s) \: \mathrm{d}s &= \bigg[\,sh
 
 $k=s^2$ 라 하면 $\mathrm{d} k = 2s\: \mathrm{d} s$
 
-$\begin{aligned} \displaystyle\int_{\,0}^{\,t} h(s) \: \mathrm{d}s &= th(t) - \dfrac{1}{2}\displaystyle\int_{\,0}^{\,t^2}\left(-xk + \sin k \right)\, \mathrm{d}k  \\ &= th(t) - \dfrac{1}{2} \bigg[\,-\dfrac{x}{2}v^{2} - \cos v \,\bigg]_{0}^{t^2} \\ &= th(t) - \dfrac{1}{2} \left\{-\dfrac{x}{2} t^{4} - \cos \left( t^2 \right) + 1 \right\}\end{aligned}$
+$\begin{aligned} \displaystyle\int_{\,0}^{\,t} h(s) \: \mathrm{d}s &= th(t) - \dfrac{1}{2}\displaystyle\int_{\,0}^{\,t^2}\left(-xk + \sin k \right)\, \mathrm{d}k  \\ &= th(t) - \dfrac{1}{2} \bigg[-\dfrac{x}{2}v^{2} - \cos v \,\bigg]_{0}^{t^2} \\ &= th(t) - \dfrac{1}{2} \left\{-\dfrac{x}{2} t^{4} - \cos \left( t^2 \right) + 1 \right\}\end{aligned}$
 
 $\begin{aligned} g(x)&=\lim\limits_{t\rightarrow0}\dfrac{\dfrac{1}{2}\displaystyle\int_{\,0}^{\,t}{h(s) \: \mathrm{d} s}}{\dfrac{1}{2}\,h(t) \sin t} \\ &= \lim\limits_{t\rightarrow0}\dfrac{th(t) - \dfrac{1}{2} \left\{-\dfrac{x}{2} t^4 - \cos \left(t^2 \right) + 1 \right\}}{\sin t \cdot h(t)} \\ &= \lim\limits_{t\rightarrow0}\dfrac{t}{\sin t} + \dfrac{1}{4} \lim\limits_{t\rightarrow0}\dfrac{xt^4}{\sin t \cdot h(t)}-\dfrac{1}{2} \lim\limits_{t\rightarrow0}\dfrac{1-\cos\left(t^2\right)}{\sin t \cdot h(t)} \\ &= 1 + \dfrac{1}{4} \lim\limits_{t \rightarrow 0}\dfrac{(x-1) t^3}{h(t)}\end{aligned}$
 
