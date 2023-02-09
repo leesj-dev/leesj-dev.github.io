@@ -1,7 +1,7 @@
 ---
 emoji: 📝
 title: Pyeon–Ahn SAT (4) 여러 개의 변수가 있는 적분
-date: '2023-02-05 16:00:00'
+date: '2023-02-07 14:00:00'
 author: 이승준
 tags: PASAT
 categories: PASAT
