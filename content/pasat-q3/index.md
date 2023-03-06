@@ -78,7 +78,7 @@ $ab=\dfrac{1}{8}$ 일 때 $a=2b$ 이므로, $a=\dfrac{1}{2}=m$, $b=\dfrac{1}{4}=
 
 $\therefore m+n+p+q\leq\dfrac{1}{2}+\dfrac{1}{4}+0+1=\dfrac{7}{4}=M$
 
-$16M=28$</body></html>
+$16M=28$
 
 ---
 
