@@ -80,7 +80,6 @@ $\lim\limits_{t \rightarrow 0} \dfrac{i(t)}{h(t)} = \lim\limits_{t \rightarrow 0
 
 $g(x)=1-\dfrac{3}{4}=\dfrac{1}{4}$
 
-
 $\begin{aligned} h(0)&=\displaystyle\int _{\sqrt{\pi}} ^{\,0} \left\{\sin\left(l^2\right) - xl^2\right\}\mathrm{d}l \\ &= \bigg[ -\dfrac{x}{3} l^{3} \, \bigg] _{0}^{\sqrt{\pi}} - 2 \displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l = 0\end{aligned}$
 
 $\displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l = - \dfrac{x}{6} \pi \sqrt{\pi}$
@@ -88,7 +87,6 @@ $\displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l = -
 $\displaystyle\int_{\,0}^{\,\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l$ 은 상수이므로, 위 식을 만족시키는 $x$ 는 $\alpha$ 로 유일하다.
 
 (다시 말해 $g(m)=\dfrac{1}{4} = k$ 를 만족하는 $m$ 은 $\alpha = -\dfrac{6\int_{0}^{\sqrt{\pi}} \sin \left( l^2 \right) \mathrm{d} l}{\pi \sqrt{\pi}}$ 로 유일하다.)
-
 
 $l=\sqrt{t}$ 라 하면 $\mathrm{d} t = 2l \: \mathrm{d} l$ 이므로,
 

@@ -1,6 +1,6 @@
 ---
 emoji: 📝
-le: Pyeon–Ahn SAT (3) 3차 반응 적분 속도식
+title: Pyeon–Ahn SAT (3) 3차 반응 적분 속도식
 date: '2023-02-06 23:00:00'
 author: 이승준
 tags: PASAT
