@@ -1018,7 +1018,7 @@
   //   margin-bottom: 3px;
   // }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1750px) {
     display: none;
   }
 
@@ -1026,10 +1026,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 340px;
+  width: 310px;
   position: fixed;
   top: 75px;
-  right: 0px;
+  right: 15px;
 
   ul {
     cursor: pointer;
