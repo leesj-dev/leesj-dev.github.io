@@ -124,6 +124,12 @@ module.exports = {
               escapeEntities: {},
             },
           },
+          {
+            resolve: `gatsby-plugin-google-adsense`,
+            options: {
+              publisherId: `ca-pub-2013262838591637`
+            },
+          },
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
