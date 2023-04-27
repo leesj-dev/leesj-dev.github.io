@@ -31,7 +31,7 @@ Zoom이 영상을 하나의 카메라로 인식하기 위해서는 크게 두 �
 
 1. Zoom 내의 Virtual Background 기능을 활용한다. Zoom의 `Settings`에 들어가서 `Background & Effects` 탭에서 `Add Video`를 누르고 해당 영상을 넣어준다. Zoom 회의 시에는 카메라를 켠 상태에서 웹캠에 자신이 얼굴이 촬영되지 않도록 웹캠을 물리적으로 가리되, 만약 교수님에게 호출(?)당한다면 얼른 Virtual Background를 끄거나 Blur로 바꾼 후 웹캠을 가린 물체를 제거해야 한다.
 
-2. 조금 더 편한 방법으로는 [OBS](https://obsproject.com/)의 Virtual Camera 기능을 사용하는 것이다. 프로그램을 실행한 후 왼쪽 하단의 `Scenes`에 아무 것도 없다면 새로운 Scene을 추가해준다. 이후 그 Scene을 클릭한 상태에서 `Sources` 탭에서 `Media Source`를 추가해준다.
+2. 조금 더 편한 방법은 [OBS](https://obsproject.com/)의 Virtual Camera 기능을 사용하는 것이다. 프로그램을 실행한 후 왼쪽 하단의 `Scenes`에 아무 것도 없다면 새로운 Scene을 추가해준다. 이후 그 Scene을 클릭한 상태에서 `Sources` 탭에서 `Media Source`를 추가해준다.
 ![zoom-fake-3.png](zoom-fake-3.png)
 OK를 누르면 아래 창에 뜨는데, `Local File`이 체크가 된 상태에서 `Browse`를 누르고 편집한 영상의 경로를 불러온다. 이후 `Loop`를 체크하고 `OK`를 누른다.
 ![zoom-fake-4.png](zoom-fake-4.png)
@@ -41,7 +41,7 @@ OK를 누르면 아래 창에 뜨는데, `Local File`이 체크가 된 상태에
 ![zoom-fake-6.png](zoom-fake-6.png)
 
 ## 3. 마무리
-언제까지나 임시적 방편에 불과하므로 실제 자신의 카메라를 켜게 될 상황이 자주 있을 경웨는 사용하지 않는 것을 추천하며, 자신의 영상을 촬영한 배경과 실제 Zoom 회의 시의 배경이 가급적 동일한 것이 좋다. Zoom 이외에도 Google Meet나 Skype 등 다른 플랫폼에서도 가능한지에 대한 여부는 [이 table](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility)을 참고하면 될 것 같다.
+언제까지나 임시적 방편에 불과하므로 실제 자신의 카메라를 켜게 될 상황이 자주 있을 경우에는 사용하지 않는 것을 추천하며, 자신의 영상을 촬영한 배경과 실제 Zoom 회의 시의 배경이 가급적 동일한 것이 좋다. Zoom 이외에도 Google Meet나 Skype 등 다른 플랫폼에서도 가능한지에 대한 여부는 [이 table](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility)을 참고하면 될 것 같다.
 
 ```toc
 ```
