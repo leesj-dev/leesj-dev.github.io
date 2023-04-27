@@ -8,7 +8,7 @@ categories: 자동화
 ---
 
 ## 0. Intro
-온라인 수업을 듣다가, 문득 눕고 십다는 생각을 해본 적이 있을 것이다. 하지만 누워서 수업을 듣는 자신의 모습을 카메라에 비출 수는 없지 않은가. (실제로 어떤 사람이 누워서 수업을 듣다가, 교수님이 뭐라하신 상황을 목격한 바 있다.)
+온라인 수업을 듣다가, 문득 눕고 십다는 생각을 해본 적이 있을 것이다. 하지만 누워서 수업을 듣는 자신의 모습을 카메라에 비출 수는 없지 않은가. (실제로 어떤 사람이 누워서 수업을 듣다가, 교수님이 뭐라 하신 상황을 목격한 바 있다.)
 그렇게 해서 고안해낸 것이, 수업을 듣고 있는 자신의 모습을 촬영한 후 이것을 카메라 모습 대신에 활용하는 방안이다.
 
 ## 1. 영상 만들기
@@ -29,9 +29,9 @@ categories: 자동화
 ## 2. Zoom에 적용시키기
 Zoom이 영상을 하나의 카메라로 인식하기 위해서는 크게 두 가지 방법이 있다.
 
-1. Zoom 내의 Virtual Background 기능을 활용한다. Zoom의 Settings에 들어가서 `Background & Effects` 탭에서 `Add Video`를 누르고 해당 영상을 넣어준다. Zoom 회의 시에는 카메라를 켠 상태에서 웹캠에 자신이 얼굴이 촬영되지 않도록 웹캠을 물리적으로 가리되, 만약 교수님에게 호출(?)당한다면 얼른 Virtual Background를 끄거나 Blur로 바꾼 후 웹캠을 가린 물체를 제거해야 한다.
+1. Zoom 내의 Virtual Background 기능을 활용한다. Zoom의 `Settings`에 들어가서 `Background & Effects` 탭에서 `Add Video`를 누르고 해당 영상을 넣어준다. Zoom 회의 시에는 카메라를 켠 상태에서 웹캠에 자신이 얼굴이 촬영되지 않도록 웹캠을 물리적으로 가리되, 만약 교수님에게 호출(?)당한다면 얼른 Virtual Background를 끄거나 Blur로 바꾼 후 웹캠을 가린 물체를 제거해야 한다.
 
-2. 조금 더 편한 방법으로는 [OBS](https://obsproject.com/)의 Virtual Camera 기능을 사용하는 것이다. 프로그램을 실행한 후 왼쪽 하단의 Scenes에 아무 것도 없다면 새로운 Scene을 추가해준다. 이후 그 Scene을 클릭한 상태에서 Sources 탭에서 Media Source를 추가해준다.
+2. 조금 더 편한 방법으로는 [OBS](https://obsproject.com/)의 Virtual Camera 기능을 사용하는 것이다. 프로그램을 실행한 후 왼쪽 하단의 `Scenes`에 아무 것도 없다면 새로운 Scene을 추가해준다. 이후 그 Scene을 클릭한 상태에서 `Sources` 탭에서 `Media Source`를 추가해준다.
 ![zoom-fake-3.png](zoom-fake-3.png)
 OK를 누르면 아래 창에 뜨는데, `Local File`이 체크가 된 상태에서 `Browse`를 누르고 편집한 영상의 경로를 불러온다. 이후 `Loop`를 체크하고 `OK`를 누른다.
 ![zoom-fake-4.png](zoom-fake-4.png)
