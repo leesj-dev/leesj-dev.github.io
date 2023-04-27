@@ -23,3 +23,7 @@ public
 
 # Mac files
 .DS_Store
+
+
+# 작업중인 파일
+content/pasat-q7/
