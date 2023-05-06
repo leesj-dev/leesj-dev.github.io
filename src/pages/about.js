@@ -39,6 +39,7 @@ export const pageQuery = graphql`
           social {
             github
             linkedIn
+            instagram
             email
           }
         }
