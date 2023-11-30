@@ -27,3 +27,9 @@ public
 
 # 작업중인 파일
 content/pasat-q7/*.py
+content/biostatistics-1/image-1.png
+.gitignore
+content/biostatistics-1/index.md
+content/deep-learning-1/index.md
+content/deep-learning-1/main.py
+content/biostatistics-1/image.png
