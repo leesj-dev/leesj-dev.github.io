@@ -23,11 +23,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 8</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_8.wav" type="audio/wav" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Piano_8.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -38,7 +38,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Beats 3</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Beats_3.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -50,11 +50,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 7</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_7.wav" type="audio/wav" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Piano_7.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -65,7 +65,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 6</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_6.m4a" type="audio/x-m4a" />
                 </audio>
             </td>
@@ -77,11 +77,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 5</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_5.m4a" type="audio/x-m4a" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Piano_5.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -92,7 +92,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 4</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;"></td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Piano_4.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -103,7 +103,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 3</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_3.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -115,11 +115,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 2</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_2.wav" type="audio/wav" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Piano_2.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -130,7 +130,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Beats 2</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Beats_2.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -150,7 +150,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Am song</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/A_sharp_m_song.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -162,7 +162,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Attention (Remix)</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Attention_(Remix).wav" type="audio/wav" />
                 </audio>
             </td>
@@ -174,7 +174,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Piano 1</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Piano_1.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -194,7 +194,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Pyeon Beats</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Pyeon_Beats.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -206,7 +206,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Upbeat</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Upbeat.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -218,7 +218,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Beats 1</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Beats_1.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -230,7 +230,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Deep</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Deep.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -242,7 +242,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Modern</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Modern.m4a" type="audio/x-m4a" />
                 </audio>
             </td>
@@ -254,7 +254,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Reverie</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Reverie.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -266,7 +266,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Dramatic Piano</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Dramatic_Piano.m4a" type="audio/x-m4a" />
                 </audio>
             </td>
@@ -278,7 +278,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Love Not War (Remix)</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Love_Not_War_(Remix).mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -290,7 +290,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Trance</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Trance.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -302,7 +302,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Euphony (Guitar Version)</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Euphony_(Guitar_Version).wav" type="audio/wav" />
                 </audio>
             </td>
@@ -314,7 +314,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Ambient Piano</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Ambient_Piano.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -326,11 +326,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Jazz Demo</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Jazz_Demo.mp3" type="audio/mpeg" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Jazz_Demo.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -341,7 +341,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Radiance</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Radiance.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -353,7 +353,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Future Bass</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Future_Bass.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -365,7 +365,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Deep House</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Deep_House.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -377,11 +377,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Despair</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Despair.mp3" type="audio/mpeg" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Despair.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -392,11 +392,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Blosom</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Blossom.mp3" type="audio/mpeg" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Blossom.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -407,7 +407,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Underground</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Underground.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -419,7 +419,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Geyser</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Geyser.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -431,11 +431,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Hope (Piano Version)</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Hope_(Piano_Version).mp3" type="audio/mpeg" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Hope.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -446,7 +446,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Hope</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Hope.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -458,7 +458,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Phantom</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Phantom.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -470,7 +470,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Groove</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Groove.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -482,7 +482,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Doom</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Doom.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -494,11 +494,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Journey</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Journey.mp3" type="audio/mpeg" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Journey.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -509,11 +509,11 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Euphony</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Euphony.mp3" type="audio/mpeg" />
                 </audio>
             </td>
-            <td style="padding: 3px 3px;">
+            <td style="padding: 3px 3px; vertical-align: middle;">
                 <a href="" onclick="window.open('/music/Euphony.pdf')">
                     <img src="/PDF_file_icon.svg" /></a>
             </td>
@@ -524,7 +524,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Cinematic</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Cinematic.wav" type="audio/wav" />
                 </audio>
             </td>
@@ -536,7 +536,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Dance Music</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Dance_Music.mp3" type="audio/mpeg" />
                 </audio>
             </td>
@@ -548,7 +548,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">Fade Remake</td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
-                <audio style="text-align: center; vertical-align: middle;" controls>
+                <audio style="vertical-align: middle;" controls>
                     <source src="/music/Fade_Remake.mp3" type="audio/mpeg" />
                 </audio>
             </td>
