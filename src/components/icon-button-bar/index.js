@@ -8,7 +8,6 @@ import AndroidIcon from '@mui/icons-material/Android';
 import AppleIcon from '@mui/icons-material/Apple';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FlickrIcon from '@mui/icons-material/Flickr';
 
 import './style.scss';
 
@@ -32,8 +31,6 @@ function IconButtonBar({ links = {} }) {
         return <LinkedInIcon {...props} />;
       case 'instagram':
         return <InstagramIcon {...props} />;
-      case 'flickr':
-        return <FlickrIcon {...props} />;
       default:
         return <></>;
     }
