@@ -8,15 +8,7 @@ categories: 음악
 ---
 
 <html>
-<style>
-    audio {
-        vertical-align: middle;
-    }
-
-    td {
-        text-align: center
-    }
-</style>
+<style>audio {vertical-align: middle;} td {text-align: center; vertical-align: middle;} </style>
 <table>
     <th>날짜</th>
     <th>제목</th>
