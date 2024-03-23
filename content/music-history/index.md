@@ -19,6 +19,72 @@ categories: 음악
     </thead>
     <tbody>
         <tr>
+            <td style="text-align: center; vertical-align: middle;">2024.03.08.</td>
+            <td style="text-align: center; vertical-align: middle;">Inspirational</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Inspirational.wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">2024.02.18.</td>
+            <td style="text-align: center; vertical-align: middle;">15/16</td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/15%2F16.wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">2024.02.03.</td>
+            <td style="text-align: center; vertical-align: middle;">Trumpet</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Trumpet.wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">2024.02.02.</td>
+            <td style="text-align: center; vertical-align: middle;">Band 2</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Band_2.wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="padding: 3px 3px; vertical-align: middle;">
+                <a href="" onclick="window.open('/music/Band_2.pdf')">
+                    <img src="/PDF_file_icon.svg" /></a>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">2024.01.13.</td>
+            <td style="text-align: center; vertical-align: middle;">Band 1</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Band_1.wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="padding: 3px 3px; vertical-align: middle;">
+                <a href="" onclick="window.open('/music/Band_1.pdf')">
+                    <img src="/PDF_file_icon.svg" /></a>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+        </tr>
+        <tr>
             <td style="text-align: center; vertical-align: middle;">2023.11.23.</td>
             <td style="text-align: center; vertical-align: middle;">Piano 8</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
