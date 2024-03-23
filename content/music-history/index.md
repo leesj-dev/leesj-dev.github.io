@@ -36,7 +36,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/15%2F16.wav" type="audio/wav" />
+                    <source src="/music/15:16.wav" type="audio/wav" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
