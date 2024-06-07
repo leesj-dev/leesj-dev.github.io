@@ -22,12 +22,14 @@ categories: 자동화
 ![android-automation-2.png](android-automation-2.png)
 
 ## 1-2. Java SE 8
-기존에 Java 8을 쓰는 사람은 건너뛰면 된다. [JDK 8 Oracle 페이지](https://www.oracle.com/kr/java/technologies/javase/javase8u211-later-archive-downloads.html)에 들어가서 JDK(Java Development Kit)를 설치한다.
+기존에 Java 8을 쓰는 사람은 건너뛰면 된다. [Oracle 페이지](https://www.oracle.com/kr/java/technologies/downloads/)에 들어가서 쭉 내리면 `Java SE Development Kit`이 보이는데, 여기에서 자신의 컴퓨텉에 맞는 JDK(Java Development Kit)를 설치한다.
 Oracle 회원가입 및 로그인을 해야 하므로, 귀찮은 사람들을 위해 아래에 Oracle 서버의 direct download 링크를 넣어두겠다.
 
-[JDK 8 Windows](https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/windows-i586/jdk-8u331-windows-x64.exe)
+[JDK 8u401 Windows x64](https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u411/jdk/jdk-8u411-windows-x64.exe)
 
-[JDK 8 Mac](https://javadl.oracle.com/webapps/download/GetFile/1.8.0_331-b09/165374ff4ea84ef0bbd821706e29b123/unix-i586/jdk-8u331-macosx-x64.dmg)
+[JDK 8u401 Mac x64](https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u411/jdk/jdk-8u411-macosx-x64.dmg)
+
+[JDK 8u401 Mac ARM](https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u411/jdk/jdk-8u411-macosx-aarch64.dmg)
 
 ## 1-3. Appium Server GUI
 [Appium Server GUI](https://github.com/appium/appium-desktop/releases/tag/v1.22.3-4)를 설치한 뒤 실행한다. Host는 `127.0.0.1`로, Port는 `4723`로 설정한다. Edit Configurations를 누르면 환경 변수를 설정하는 창이 뜬다.
