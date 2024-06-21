@@ -239,7 +239,7 @@ app<span class="token punctuation">.</span><span class="token function">use</spa
     </span></p>
 </li>
 <li>
-<p>도메인 관리 사이트에 들어가서 DNS target을 추가해주었다. 나는 Namecheap에서 도메인을 구입하였는데, Namecheap의 <code class="language-text">Domain List > Manage > Advanced DNS</code>에 들어가서 다음을 추가하였다.</p>
+<p>도메인 관리 사이트에 들어가서 DNS target을 추가해주었다. 필잔는 Namecheap에서 도메인을 구입하였는데, Namecheap의 <code class="language-text">Domain List > Manage > Advanced DNS</code>에 들어가서 다음을 추가하였다.</p>
 <ul>
 <li><code class="language-text">Type</code>: <code class="language-text">CNAME Record</code></li>
 <li><code class="language-text">Host</code>: <code class="language-text">api</code></li>
@@ -271,11 +271,6 @@ app<span class="token punctuation">.</span><span class="token function">use</spa
       />
     </span></p>
 </li>
-<li>
-<p>여기까지 하면 프록시 서버는 http 형태의 주소가 된다. 그런데 https (클라이언트)에서 http (프록시 서버)로 요청을 보낼 수 없기 때문에 SSL 인증을 활성화해줘야 한다. 이 옵션은 Heroku 유료 플랜을 사용하여야지만 활성화가 가능한데, 다행히도 <a href="https://github.com/edu/students">Github Student Developer Pack</a>에 가입되어 있는 경우 $312의 크레딧을 제공해주어 무료로 사용이 가능했다.
-Terminal에서 Heroku CLI를 통해 활성화하면 된다.</p>
-<div class="gatsby-highlight" data-language="sh"><pre class="language-sh"><code class="language-sh">heroku certs:auto:enable <span class="token parameter variable">-a</span> subway-live-proxy</code></pre></div>
-</li>
 </ol>
 <ul>
 <li>정리하면 다음과 같다.
@@ -292,6 +287,12 @@ Terminal에서 Heroku CLI를 통해 활성화하면 된다.</p>
 </blockquote>
 </li>
 </ul>
+<h3 id="2-4-ssl-인증-활성화" style="position:relative;"><a href="#2-4-ssl-%EC%9D%B8%EC%A6%9D-%ED%99%9C%EC%84%B1%ED%99%94" aria-label="2 4 ssl 인증 활성화 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2-4. SSL 인증 활성화</h3>
+<p>여기까지 하면 프록시 서버는 http 형태의 주소가 된다. 그런데 https (클라이언트)에서 http (프록시 서버)로 요청을 보낼 수 없기 때문에 SSL 인증을 활성화해줘야 한다. 이 옵션은 Heroku 유료 플랜을 사용하여야지만 활성화가 가능한데, 다행히도 <a href="https://github.com/edu/students">Github Student Developer Pack</a>에 가입되어 있는 경우 $312의 크레딧을 제공해주어 무료로 사용이 가능했다.
+Terminal에서 Heroku CLI를 통해 활성화하면 된다.
+<code class="language-text">sh
+    heroku certs:auto:enable -a subway-live-proxy
+    </code></p>
 <div class="table-of-contents">
 <ul>
 <li>
@@ -311,6 +312,7 @@ Terminal에서 Heroku CLI를 통해 활성화하면 된다.</p>
 <li><a href="#2-1-%EC%99%9C-%ED%94%84%EB%A1%9D%EC%8B%9C-%EC%84%9C%EB%B2%84%EA%B0%80-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80">2-1. 왜 프록시 서버가 필요한가?</a></li>
 <li><a href="#2-2-express%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0">2-2. Express로 간단한 서버 만들기</a></li>
 <li><a href="#2-3-%ED%94%84%EB%A1%9D%EC%8B%9C-%EC%84%9C%EB%B2%84-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%A4%EC%A0%95">2-3. 프록시 서버 도메인 설정</a></li>
+<li><a href="#2-4-ssl-%EC%9D%B8%EC%A6%9D-%ED%99%9C%EC%84%B1%ED%99%94">2-4. SSL 인증 활성화</a></li>
 </ul>
 </li>
 </ul>
