@@ -95,12 +95,6 @@ Heroku에서 기본적으로 제공하는 도메인명은 너무 길고 예쁘�
   
    ![2-5.png](2-5.png)
 
-3. 여기까지 하면 프록시 서버는 http 형태의 주소가 된다. 그런데 https (클라이언트)에서 http (프록시 서버)로 요청을 보낼 수 없기 때문에 SSL 인증을 활성화해줘야 한다. 이 옵션은 Heroku 유료 플랜을 사용하여야지만 활성화가 가능한데, 다행히도 [Github Student Developer Pack](https://github.com/edu/students)에 가입되어 있는 경우 &dollar;312의 크레딧을 제공해주어 무료로 사용이 가능했다.
-    Terminal에서 Heroku CLI를 통해 활성화하면 된다.
-    ```sh
-    heroku certs:auto:enable -a subway-live-proxy
-    ```
-
 * 정리하면 다음과 같다.
     * Frontend `subway-live` (공개 repo): Github Pages에서 https://leesj.me/subway-live 로 호스팅
     * Backend `subway-live-proxy` (비공개 repo): Heroku에서 https://api.leesj.me 로 호스팅
@@ -110,6 +104,12 @@ Heroku에서 기본적으로 제공하는 도메인명은 너무 길고 예쁘�
     > https://asymmetrical-indominus-dml7yfof09cu68fzk8g6hheo.herokudns.com -(서버의 GET 요청)→
     > https://api.kakao.com/subway
 
+### 2-4. SSL 인증 활성화
+여기까지 하면 프록시 서버는 http 형태의 주소가 된다. 그런데 https (클라이언트)에서 http (프록시 서버)로 요청을 보낼 수 없기 때문에 SSL 인증을 활성화해줘야 한다. 이 옵션은 Heroku 유료 플랜을 사용하여야지만 활성화가 가능한데, 다행히도 [Github Student Developer Pack](https://github.com/edu/students)에 가입되어 있는 경우 &dollar;312의 크레딧을 제공해주어 무료로 사용이 가능했다.
+    Terminal에서 Heroku CLI를 통해 활성화하면 된다.
+    ```sh
+    heroku certs:auto:enable -a subway-live-proxy
+    ```
 
 ```toc
 ```
