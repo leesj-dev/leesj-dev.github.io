@@ -8,7 +8,7 @@ categories: 웹개발
 ---
 
 ## 0. 들어가며
-부산 지하철 실시간 도착정보 서비스를 만들기 위해 가장 먼저 준비해야 하는 것은 그 **실시간 도착정보를 찾아내는 것**이다. [공공데이터포털](https://data.go.kr), [레일포털](https://data.kric.go.kr), [카카오맵 API](https://apis.map.kakao.com/web/) 등을 모두 찾아 보았으나, OpenAPI 형태로 실시간 도착정보를 제공하는 곳은 없었다. 어쩔 수 없이 카카오맵 앱 내부적으로 사용되는 API를 사용하여 실시간 도착정보를 찾아내기로 했다. 이 내부 API는 외부에 공개되지 않기 때문에 네트워크 패킷을 분석하여 찾아내야 한다.
+부산 지하철 실시간 도착정보 서비스를 만들기 위해 가장 먼저 준비해야 하는 것은 그 **실시간 도착정보를 가져오는 것**이다. [공공데이터포털](https://data.go.kr), [레일포털](https://data.kric.go.kr), [카카오맵 API](https://apis.map.kakao.com/web/) 등을 모두 찾아 보았으나, OpenAPI 형태로 실시간 도착정보를 제공하는 곳은 없었다. 어쩔 수 없이 카카오맵 앱 내부적으로 사용되는 API를 사용하여 실시간 도착정보를 찾아내기로 했다. 이 내부 API는 외부에 공개되지 않기 때문에 네트워크 패킷을 분석하여 찾아내야 한다.
 
 ## 1. 카카오맵 내부 API 찾아내기
 휴대폰에서 통신되는 네트워크 패킷을 컴퓨터에서 찾아낼 수 있는 소프트웨어를 검색해보니 [Charles Proxy](https://www.charlesproxy.com/download/)가 있었다. 30일 무료 평가판에 세션 시간 제한 등 제약이 있었지만, 카카오맵 내부 API를 찾아내는 데에는 문제가 없어 보였다. Charles Proxy를 Mac에 설치한 뒤 iPhone에서 몇 가지 설정을 만져 주었다.
@@ -101,7 +101,7 @@ Heroku에서 기본적으로 제공하는 도메인명은 너무 길고 예쁘�
 
    ![2-4.png](2-4.png)
 
-2. 도메인 관리 사이트에 들어가서 DNS target을 추가해주었다. 필잔는 Namecheap에서 도메인을 구입하였는데, Namecheap의 `Domain List > Manage > Advanced DNS`에 들어가서 다음을 추가하였다.
+2. 도메인 관리 사이트에 들어가서 DNS target을 추가해주었다. 필자는 Namecheap에서 도메인을 구입하였는데, Namecheap의 `Domain List > Manage > Advanced DNS`에 들어가서 다음을 추가하였다.
    * `Type`: `CNAME Record`
    * `Host`: `api`
    * `Value`: Heroku에서 제시한 DNS Target
@@ -118,9 +118,9 @@ Heroku에서 기본적으로 제공하는 도메인명은 너무 길고 예쁘�
     https://api.kakao.com/subway
 
 ### 2-4. SSL 인증 활성화
-여기까지 하면 프록시 서버는 http 형태의 주소가 된다. 그런데 https (클라이언트)에서 http (프록시 서버)로 요청을 보낼 수 없기 때문에 SSL 인증을 활성화해줘야 한다. 이 옵션은 Heroku 유료 플랜을 사용하여야지만 활성화가 가능한데, 다행히도 [Github Student Developer Pack](https://github.com/edu/students)에 가입되어 있는 경우 &dollar;312의 크레딧을 제공해주어 무료로 사용이 가능했다.
+여기까지 하면 프록시 서버는 http 형태의 주소가 된다. 그런데 https (클라이언트)에서 http (프록시 서버)로 요청을 보낼 수 없기 때문에 SSL 인증을 활성화해줘야 한다. 이 옵션은 원래 Heroku 유료 플랜을 사용하여야지만 활성화가 가능한데, 다행히도 [Github Student Developer Pack](https://github.com/edu/students)에 가입되어 있는 경우 &dollar;312의 크레딧을 제공해주어 무료로 사용이 가능했다.
 
-SSL 인증 활성화는 Terminal에서 Heroku CLI를 통해 간단하게 해결된다.
+SSL 인증 활성화는 Terminal에서 Heroku CLI를 통해 간단하게 할 수 있다.
 ```sh
 heroku certs:auto:enable -a subway-live-proxy
 ```
