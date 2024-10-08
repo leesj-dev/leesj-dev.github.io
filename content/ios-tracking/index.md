@@ -21,17 +21,23 @@ iOS 앱들을 보다 보면 어떤 앱에서 어떤 네트워크 요청을 주�
 
 ![ios-tracking-1.png](ios-tracking-1.png)
 
-## 1-3. iPhone에 SSL 인증서 설치
+## 1-4. SSL 인증서 설치
 iPhone의 Safari에서 [SSL 인증서](https://chls.pro/ssl)를 다운로드하여 설치한다. 이후 iPhone의 설정에 들어가 아래 경로에서 Charles Proxy의 인증서를 활성화한다.
 * 영문: `General > About > Certificate Trust Settings > Enable Full Trust for Root Certificates`
 * 한글: `일반 > 정보 > 인증서 신뢰 설정 > 루트 인증서 전체 신뢰 활성화`
 
 ![ios-tracking-2.png](ios-tracking-2.png)
 
-# 2. Charles 실행
-이제 아래 사진과 같이 앱에서 특정 동작을 수행하면 발생하는 JSON Request의 내용을 볼 수 있다. 이러한 네트워크 트래킹은 외부에 공개 시 문제의 소지가 발생할 가능성이 크므로, 대부분의 정보를 블러 처리하고 올리는 점 양해 바란다. 이처럼 상업적으로 운용되는 앱에 대해서 네트워크 패킷 분석은 개인적인 용도로만 사용하는 것이 바람직하다.
+# 2. Charles 실행 및 설정
+## 2-1. SSL Proxying 설정
+Charles를 실행하고 `Proxy > SSL Proxying Settings`에 들어가서 `Enable SSL Proxying`을 체크한다. 이후 `Add`를 눌러 `Host`에 `*`를 입력한다. 이렇게 하면 모든 도메인으로 들어오는 SSL 트래픽을 Charles가 스니핑할 수 있다.
 
 ![ios-tracking-3.png](ios-tracking-3.png)
+
+## 2-2. 패킷 분석
+이제 아래 사진과 같이 앱에서 특정 동작을 수행하면 발생하는 JSON Request의 내용을 볼 수 있다. 이러한 네트워크 트래킹은 외부에 공개 시 문제의 소지가 발생할 가능성이 크므로, 대부분의 정보를 블러 처리하고 올리는 점 양해 바란다. 이처럼 상업적으로 운용되는 앱에 대해서 네트워크 패킷 분석은 개인적인 용도로만 사용하는 것이 바람직하다.
+
+![ios-tracking-4.png](ios-tracking-4.png)
 
 ```toc
 ```
