@@ -24,7 +24,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Beats_4.mp3" type="audio/mp3" />
+                    <source src="/music/Beats_4.mp3" type="audio/mpeg" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -32,23 +32,11 @@ categories: 음악
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">2026.05.15.</td>
-            <td style="text-align: center; vertical-align: middle;">Piano 10</td>
+            <td style="text-align: center; vertical-align: middle;">Piano 9</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Piano_10.wav" type="audio/wav" />
-                </audio>
-            </td>
-            <td style="text-align: center; vertical-align: middle;"></td>
-            <td style="text-align: center; vertical-align: middle;">데모</td>
-        </tr>
-        <tr>
-            <td style="text-align: center; vertical-align: middle;">2026.05.15.</td>
-            <td style="text-align: center; vertical-align: middle;">Piano 10</td>
-            <td style="text-align: center; vertical-align: middle;">O</td>
-            <td style="text-align: center; vertical-align: middle;">
-                <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Piano_10.wav" type="audio/wav" />
+                    <source src="/music/Piano_9.wav" type="audio/wav" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -56,11 +44,11 @@ categories: 음악
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">2024.03.18.</td>
-            <td style="text-align: center; vertical-align: middle;">Piano 9</td>
+            <td style="text-align: center; vertical-align: middle;">Dramatic Piano 3</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Piano_9.wav" type="audio/wav" />
+                    <source src="/music/Dramatic_Piano_3.wav" type="audio/wav" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -257,9 +245,13 @@ categories: 음악
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">2023.05.08.</td>
-            <td style="text-align: center; vertical-align: middle;">Piano &amp; Violin</td>
+            <td style="text-align: center; vertical-align: middle;">Dramatic Piano 2</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
-            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Dramatic_Piano_2.m4a" type="audio/m4a" />
+                </audio>
+            </td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">데모</td>
         </tr>
@@ -270,6 +262,18 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
                     <source src="/music/A_sharp_m_song.wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">2022.12.09.</td>
+            <td style="text-align: center; vertical-align: middle;">Stay Inside Me (Remix)</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Stay_Inside_Me_(Remix).wav" type="audio/wav" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -303,7 +307,10 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">2022.07.31.</td>
             <td style="text-align: center; vertical-align: middle;">Last Goodbye Remake</td>
             <td style="text-align: center; vertical-align: middle;"></td>
-            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Last_Goodbye_Remake.mp3" type="audio/mpeg" />
+                </audio></td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">데모</td>
         </tr>
@@ -381,11 +388,23 @@ categories: 음악
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">2021.06.04.</td>
-            <td style="text-align: center; vertical-align: middle;">Dramatic Piano</td>
+            <td style="text-align: center; vertical-align: middle;">Dramatic Piano 1</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Dramatic_Piano.m4a" type="audio/x-m4a" />
+                    <source src="/music/Dramatic_Piano_1.m4a" type="audio/x-m4a" />
+                </audio>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">2021.05.07.</td>
+            <td style="text-align: center; vertical-align: middle;">NU Disco</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/NU_Disco.wav" type="audio/wav" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -410,6 +429,18 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
                     <source src="/music/Trance.mp3" type="audio/mpeg" />
+                </audio>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
+        </tr>
+          <tr>
+            <td style="text-align: center; vertical-align: middle;">2021.01.25.</td>
+            <td style="text-align: center; vertical-align: middle;">Paul Hers Remix</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/Paul_Hers_Remix.mp3" type="audio/mpeg" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -647,7 +678,7 @@ categories: 음악
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
-            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">2019.11.10.</td>
@@ -659,7 +690,7 @@ categories: 음악
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
-            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">2019.10.12.</td>
@@ -671,7 +702,7 @@ categories: 음악
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
-            <td style="text-align: center; vertical-align: middle;"></td>
+            <td style="text-align: center; vertical-align: middle;">데모</td>
         </tr>
     </tbody>
 </table>
