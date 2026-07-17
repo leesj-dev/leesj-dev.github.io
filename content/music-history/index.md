@@ -249,7 +249,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;">O</td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Dramatic_Piano_2.m4a" type="audio/m4a" />
+                    <source src="/music/Dramatic_Piano_2.m4a" type="audio/x-m4a" />
                 </audio>
             </td>
             <td style="text-align: center; vertical-align: middle;"></td>
@@ -309,7 +309,7 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">
                 <audio style="vertical-align: middle;" controls>
-                    <source src="/music/Last_Goodbye_Remake.mp3" type="audio/mpeg" />
+                    <source src="/music/Last_Goodbye_Remake.m4a" type="audio/x-m4a" />
                 </audio></td>
             <td style="text-align: center; vertical-align: middle;"></td>
             <td style="text-align: center; vertical-align: middle;">데모</td>
