@@ -121,6 +121,21 @@ categories: 음악
             <td style="text-align: center; vertical-align: middle;"></td>
         </tr>
         <tr>
+            <td style="text-align: center; vertical-align: middle;">2023.12.07.</td>
+            <td style="text-align: center; vertical-align: middle;">델리파이스 - 고백 (Remix)</td>
+            <td style="text-align: center; vertical-align: middle;">O</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <audio style="vertical-align: middle;" controls>
+                    <source src="/music/델리스파이스_-_고백_(Remix).wav" type="audio/wav" />
+                </audio>
+            </td>
+            <td style="padding: 3px 3px; vertical-align: middle;">
+                <a href="" onclick="window.open('/music/Band_1.pdf')">
+                    <img src="/PDF_file_icon.svg" /></a>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"></td>
+        </tr>
+        <tr>
             <td style="text-align: center; vertical-align: middle;">2023.11.23.</td>
             <td style="text-align: center; vertical-align: middle;">Piano 8</td>
             <td style="text-align: center; vertical-align: middle;">O</td>
